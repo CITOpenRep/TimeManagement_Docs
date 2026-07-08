@@ -26,12 +26,11 @@ clickable review
 
 ## Website build
 
-The documentation site lives in `website/` and uses Docusaurus.
+The documentation site lives in this dedicated repository and uses Docusaurus.
 
 Typical local workflow:
 
 ```bash
-cd website
 npm install
 npm run start
 ```
@@ -39,7 +38,6 @@ npm run start
 Production build:
 
 ```bash
-cd website
 npm run build
 ```
 

@@ -16,10 +16,9 @@ This section is for engineers and collaborators who need local setup guidance pl
 
 ## Working on the docs site
 
-The docs site is now part of the repository:
+The docs site is the root of this repository:
 
 ```bash
-cd website
 npm install
 npm run start
 ```

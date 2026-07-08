@@ -19,7 +19,6 @@ Deze sectie is bedoeld voor ingenieurs en medewerkers die lokale installatiebege
 De documentatiesite maakt nu deel uit van de repository:
 
 ```bash
-cd website
 npm install
 npm run start
 ```
