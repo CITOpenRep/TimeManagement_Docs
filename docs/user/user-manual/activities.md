@@ -1,3 +1,9 @@
+---
+title: Activities
+sidebar_label: Activities
+description: A comprehensive guide to the Activities module. Find out how to access the dashboard, create and edit activities, filter by status, and manage your workflow efficiently.
+---
+
 # Activities
 
 The **Activities** module is used to create, manage, track, and monitor daily activities within the Time Management App.

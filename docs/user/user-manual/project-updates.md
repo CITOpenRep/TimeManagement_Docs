@@ -1,3 +1,9 @@
+---
+title: Project Updates
+sidebar_label: Project Updates
+description: A comprehensive guide to the Project Updates module. Find out how to log project statuses, utilize the rich text editor, track completion percentages, and manage risks.
+---
+
 # Project Updates
 
 The Project Updates module is used to create, track, monitor, and communicate the latest progress of projects within the Time Management App.

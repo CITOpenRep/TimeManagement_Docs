@@ -1,3 +1,10 @@
+---
+title: Introduction
+sidebar_label: Introduction
+description: An introduction to the Time Management App. Learn about the Dashboard, Projects, Task Management, Activities, Timesheets, and System Settings to streamline your daily workflow."
+---
+
+
 # Introduction
 
 Welcome to the Time Management App documentation. This application is a comprehensive tool designed to help users organize work efficiently, monitor time spent across activities, and manage ongoing projects. 

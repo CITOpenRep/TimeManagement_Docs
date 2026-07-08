@@ -22,11 +22,12 @@ const sidebars = {
             "user/user-manual/about-us",
             "user/user-manual/settings",
             "user/user-manual/projects",
+            "user/user-manual/project-updates",
             "user/user-manual/all-tasks",
             "user/user-manual/my-tasks",
-            "user/user-manual/project-updates",
             "user/user-manual/activities",
-            "user/user-manual/timesheets"
+            "user/user-manual/timesheets",
+            "user/user-manual/draftrich"
           ],
         }
       ]

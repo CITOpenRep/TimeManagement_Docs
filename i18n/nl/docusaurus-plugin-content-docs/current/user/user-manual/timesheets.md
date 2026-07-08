@@ -1,93 +1,99 @@
-# Rooster
+---
+title: Urenstaat 
+sidebar_label: Urenstaat  
+description: Leer hoe u de Urenstaat-module kunt gebruiken om dagelijkse werkuren te registreren, inspanningen over projecten bij te houden en handmatige of geautomatiseerde timers te beheren.
+---
 
-De module **Urenstaat** wordt gebruikt om de tijd besteed aan projecten, taken en dagelijkse werkzaamheden binnen de Time Management App vast te leggen, te beheren en te monitoren.
+# Urenstaat
 
-Deze module helpt gebruikers:
-* Houd de dagelijkse werktijden bij.
-* Registreer de inspanningen die zijn besteed aan taken en projecten.
-* Houd nauwkeurige werklogboeken bij om het volgen van de productiviteit te verbeteren.
-* Ondersteuning van rapportage- en facturatieprocessen.
-* Houd toezicht op de tijdsbesteding van teams en projecten.
+De module **Urenstaat** (Timesheet) wordt gebruikt voor het registreren, beheren en monitoren van de bestede tijd aan projecten, taken en dagelijkse werkactiviteiten binnen de Time Management-applicatie.
+
+Deze module helpt gebruikers om:
+* Dagelijkse werkuren bij te houden.
+* Inspanningen besteed aan taken en projecten te registreren.
+* Nauwkeurige werklogboeken bij te houden om de productiviteitsregistratie te verbeteren.
+* Rapportage- en factureringsprocessen te ondersteunen.
+* Tijdsbesteding over teams en projecten heen te monitoren.
 
 ---
 
-## Accessing the Timesheet Module
-To open the **Timesheet** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
-2. Select **Timesheet** from the sidebar navigation.
+## Toegang tot de Urenstaat-module
+Om de sectie **Urenstaat** te openen:
+1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+2. Selecteer **Urenstaat** in de zijbalknavigatie.
 
 ---
 
-## Overzicht urenstaatscherm
+## Overzicht van het Urenstaat-scherm
 Het scherm is verdeeld in de volgende secties:
-1. Koptekstsectie (pictogram toevoegen, terugnavigatie, zoekpictogram).
-2. Filtertabbladen urenstaat.
-3. Overzichtspaneel urenstaat.
-4. Paneel met urenstaatdetails.
-5. Veeg acties.
-6. Zwevende actieknop (FAB).
+1. Kopsectie (Toevoegen-icoon, Terugnavigatie, Zoekicoon).
+2. Urenstaatfilter Tabbladen.
+3. Paneel Urenstaatoverzicht.
+4. Paneel Urenstaatdetails.
+5. Veegacties (Swipe Actions).
+6. Zwevende Actieknop (FAB).
 
-### Filtertabbladen urenstaat
-* **Alles**: toont alle urenstaatgegevens.
-* **Actief**: Geeft momenteel actieve of lopende urenstaten weer.
-* **Concept**: Toont opgeslagen concept-urenstaten die in afwachting zijn van voltooiing.
+### Urenstaatfilter Tabbladen
+* **Alles**: Toont alle urenstaat-invoeren.
+* **Actief**: Toont momenteel actieve of lopende urenstaten.
+* **Concept (Draft)**: Toont opgeslagen concepturenstaten die wachten op voltooiing.
 
-### Overzichtspaneel urenstaat
-Geeft records weer in een lijstindeling, met een samenvatting van: Urenstaattitel, Projectnaam, Taakinfo, Gelogde uren, Ingangsdatum, Toegewezen gebruiker en Prioriteit.
+### Paneel Urenstaatoverzicht
+Toont gegevens in een lijstformaat, met een samenvatting van: Urenstaattitel, Projectnaam, Taakinformatie, Gelogde Uren, Invoerdatum, Toegewezen Gebruiker en Prioriteit.
 
 ---
 
-## Een nieuwe urenstaatboeking maken
-Klik op **➕ Pictogram toevoegen** of tik op de **Zwevende actieknop (FAB)** en selecteer **Maken**. Vul de gegevens in en klik op de knop **✔ Opslaan**.
+## Een Nieuwe Urenstaat-invoer Aanmaken
+Klik op het **➕ Toevoegen-icoon** of tik op de **Zwevende Actieknop (FAB)** en selecteer **Aanmaken** (Create). Vul de informatie in en klik op de **✔ Opslaan-knop**.
 
-### Velden voor het maken van urenstaten
-* **Account, Project, Subproject, Taak, Subtaak**: Koppel de invoer aan specifieke organisatie- en werkitems om nauwkeurige rapportage te ondersteunen.
-* **Prioriteit**: belangrijkheidsniveau (belangrijk/dringend (1), belangrijk/niet urgent (2), urgent/niet belangrijk (3), niet urgent/niet belangrijk (4)).
+### Velden voor het Aanmaken van een Urenstaat
+* **Account, Project, Subproject, Taak, Subtaak**: Koppel de invoer aan specifieke organisatorische en werkitems om nauwkeurige rapportage te ondersteunen.
+* **Prioriteit**: Belangrijkheidsniveau (Belangrijk/Dringend (1), Belangrijk/Niet Dringend (2), Dringend/Niet Belangrijk (3), Niet Dringend/Niet Belangrijk (4)).
 * **Tijdregistratiemodus**:
-    * **Handmatig**: Gebruikers voeren handmatig werkuren in.
-    * **Geautomatiseerd**: de systeemtimer houdt automatisch de tijd bij.
-* **Timer**: beschikt over de knoppen Start, Pauze en Stop. Wordt automatisch bijgewerkt tijdens het hardlopen en voegt duur toe aan de invoer.
-* **Datum**: Werkdatum voor chronologische tracking.
-* **Beschrijving**: Gedetailleerde informatie over voltooid werk, updates, opgeloste problemen en bijgewoonde vergaderingen.
+    * **Handmatig (Manual)**: Gebruikers voeren werkuren handmatig in.
+    * **Geautomatiseerd (Automated)**: De systeemtimer houdt de tijd automatisch bij.
+* **Timer**: Bevat Start-, Pauze- en Stop-knoppen. Wordt automatisch bijgewerkt tijdens het draaien en voegt de duur toe aan de invoer.
+* **Datum**: Werkdatum voor chronologische registratie.
+* **Beschrijving**: Gedetailleerde info over voltooid werk, updates, opgeloste problemen en bijgewoonde vergaderingen.
 
 ---
 
-## Urenstaten bekijken en bewerken
-Selecteer een urenstaat uit de overzichtslijst om volledige informatie weer te geven in het detailpaneel. Om te bewerken opent u het item in de bewerkingsmodus, werkt u de velden bij en klikt u op Opslaan.
+## Urenstaten Bekijken en Bewerken
+Selecteer een urenstaat uit de overzichtslijst om de volledige informatie weer te geven in het Paneel Urenstaatdetails. Om te bewerken, opent u de invoer in de bewerkingsmodus, werkt u de velden bij en klikt u op Opslaan.
 
 ---
 
-## Beheer van urenstaatstatus
-* **Actief**: momenteel aan de gang of onlangs bijgewerkt.
-* **Concept**: tijdelijk opgeslagen vóór definitieve indiening.
-* **Voltooid**: voltooide en definitieve vermeldingen klaar voor synchronisatie.
+## Beheer van Urenstaatstatus
+* **Actief**: Momenteel lopend of onlangs bijgewerkt.
+* **Concept (Draft)**: Tijdelijk opgeslagen voorafgaand aan definitieve indiening.
+* **Voltooid (Completed)**: Afgeronde en definitieve invoeren die klaar zijn voor synchronisatie.
 
 ---
 
-## Geautomatiseerde timer Opslaan als conceptproces
-Wanneer u **Geautomatiseerde** tracking gebruikt, wordt door het klikken op de **Stopknop** automatisch het dialoogvenster **Beschrijving toevoegen aan urenstaat** geopend.
+## Proces Geautomatiseerde Timer Opslaan als Concept
+Bij gebruik van **Geautomatiseerde** registratie, opent een klik op de **Stop-knop** automatisch het dialoogvenster **Beschrijving toevoegen aan urenstaat** (Add Description to Timesheet).
 
-**Dialoogvensteracties:**
-* Geeft de totale bijgehouden tijd weer en stelt gebruikers in staat werkgegevens in te voeren.
-* **Opslaan als conceptknop**: slaat de bijgehouden duur en beschrijving op in de status **Concept**. Het is nog niet definitief, maar wordt zichtbaar onder het tabblad Concept voor toekomstige bewerking.
-* **Knop Annuleren**: Sluit het dialoogvenster zonder op te slaan en verwijdert de timergegevens.
+**Dialoogvenster Acties:**
+* Toont de totale geregistreerde tijd en stelt gebruikers in staat om werkdetails in te voeren.
+* **Opslaan als Concept-knop (Save as Draft)**: Slaat de geregistreerde duur en beschrijving op in de status **Concept**. Het is niet definitief, maar wordt zichtbaar onder het Concept-tabblad voor toekomstige bewerking.
+* **Annuleren-knop (Cancel)**: Sluit het dialoogvenster zonder op te slaan en verwijdert de timergegevens.
 
-### Een concept-urenstaat invullen
-Conceptinzendingen kunnen direct vanuit het overzichtsscherm worden afgerond:
-1. Open het tabblad **Concept**.
+### Een Concepturenstaat Voltooien
+Conceptinvoeren kunnen direct vanaf het overzichtsscherm worden afgerond:
+1. Open het **Concept**-tabblad.
 2. Veeg de gewenste invoer naar links.
-3. Tik op het pictogram **✔ Markeren als gereed**.
+3. Tik op het **✔ Markeren als Voltooid** icoon.
 
-Er verschijnt een succesbericht: *"Urenstaat is nu klaar om te worden gesynchroniseerd met Odoo."* De invoer gaat van het tabblad Concept naar het tabblad Alles, verandert naar de status **Voltooid** en wordt beschikbaar voor Odoo-synchronisatie.
+Er verschijnt een succesmelding: *"Urenstaat is nu klaar om gesynchroniseerd te worden met Odoo."* De invoer verplaatst zich van het Concept-tabblad naar het Alles-tabblad, verandert naar de status **Voltooid**, en komt beschikbaar voor Odoo-synchronisatie.
 
 ---
 
-## Swipe-acties voor urenstaat
+## Urenstaat Veegacties (Swipe Actions)
 
-**Swipe-actie naar rechts (verwijderen):**
-* Onthult de optie **Verwijderen** om snel ongewenste of onjuiste invoer te verwijderen.
+**Veeg naar Rechts Actie (Verwijderen):**
+* Toont de optie **Verwijderen** (Delete) om ongewenste of onjuiste invoeren snel te verwijderen.
 
-**Veegacties naar links (snelle bediening):**
-* **Bewerken**: Opent de urenstaat in de bewerkingsmodus.
-* **Start Timer**: Start automatische tijdregistratie rechtstreeks vanuit de lijst; het item kan tijdens het hardlopen op het tabblad Actief verschijnen.
-* **Markeren als gereed**: voltooit een concept-urenstaat voor synchronisatie.
+**Veeg naar Links Acties (Snelle Bediening):**
+* **Bewerken**: Opent de urenstaat in bewerkingsmodus.
+* **Timer Starten**: Begint direct vanuit de lijst met geautomatiseerde tijdregistratie; de invoer kan onder het Actief-tabblad verschijnen terwijl deze draait.
+* **Markeren als Voltooid (Mark as Done)**: Rondt een concepturenstaat af voor synchronisatie.
