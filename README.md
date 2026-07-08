@@ -5,7 +5,7 @@ This directory contains the Docusaurus-based product website and documentation p
 ## Local development
 
 ```bash
-cd website
+// cd website
 npm install
 npm run start
 ```
@@ -13,6 +13,6 @@ npm run start
 ## Production build
 
 ```bash
-cd website
+//cd website
 npm run build
 ```

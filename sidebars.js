@@ -27,6 +27,7 @@ const sidebars = {
             "user/user-manual/my-tasks",
             "user/user-manual/activities",
             "user/user-manual/timesheets",
+            "user/user-manual/NL-Translation",
             "user/user-manual/draftrich"
           ],
         }
