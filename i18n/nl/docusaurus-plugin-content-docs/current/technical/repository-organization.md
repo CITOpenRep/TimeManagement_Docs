@@ -15,7 +15,7 @@ De repository is georganiseerd op basis van verantwoordelijkheid:
 - `models/` bevat JavaScript-gegevens en statushelpers die door QML worden gebruikt
 - `src/` bevat Python-backend, synchronisatie, daemon en hulpprogrammalogica
 - `assets/` bevat merkitems op pakketniveau
-- `docs/` bevat brondocumentatie
+- `docs/` bevat brondocumentatie (nu verplaatst naar de speciale TimeManagement_Docs repository)
 - `scripts/` bevat lokale onderhouds- en validatiescripts
 
 Binnen elk gebied moeten bestanden eerst op kenmerk worden gegroepeerd en vervolgens op technische rol.

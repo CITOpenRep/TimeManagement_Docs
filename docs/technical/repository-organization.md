@@ -15,7 +15,7 @@ The repository is organized by responsibility:
 - `models/` contains JavaScript data and state helpers used by QML
 - `src/` contains Python backend, sync, daemon, and utility logic
 - `assets/` contains package-level branding assets
-- `docs/` contains source documentation
+- `docs/` contains source documentation (now moved to the dedicated TimeManagement_Docs repository)
 - `scripts/` contains local maintenance and validation scripts
 
 Within each area, files should be grouped by feature first and by technical role second.

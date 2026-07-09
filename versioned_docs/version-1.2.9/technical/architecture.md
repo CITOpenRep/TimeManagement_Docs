@@ -25,8 +25,7 @@ At a high level:
 - `models/`: JavaScript modules imported into QML
 - `src/`: Python backend and sync logic
 - `assets/`: branding and package-level artwork
-- `docs/`: source documentation kept in the main repository
-- `website/`: Docusaurus-based website and documentation portal
+- `docs/`: source documentation (moved to the dedicated TimeManagement_Docs repository)
 
 ## System Architecture Model
 

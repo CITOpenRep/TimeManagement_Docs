@@ -26,12 +26,11 @@ clickable review
 
 ## Website bouwen
 
-De documentatiesite bevindt zich in `website/` en gebruikt Docusaurus.
+De documentatiesite bevindt zich in deze speciale repository en gebruikt Docusaurus.
 
 Typische lokale workflow:
 
 ```bash
-cd website
 npm install
 npm run start
 ```
@@ -39,7 +38,6 @@ npm run start
 Productieopbouw:
 
 ```bash
-cd website
 npm run build
 ```
 

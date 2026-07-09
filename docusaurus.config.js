@@ -3,9 +3,9 @@ const config = {
   tagline: "A practical time, task, and sync workspace for Ubuntu Touch and desktop users",
   favicon: "img/logo.png",
   url: "https://citopenrep.github.io",
-  baseUrl: "/timemanagement/",
+  baseUrl: "/TimeManagement_Docs/",
   organizationName: "CITOpenRep",
-  projectName: "timemanagement",
+  projectName: "TimeManagement_Docs",
   trailingSlash: false,
   onBrokenLinks: "throw",
   stylesheets: [
@@ -42,7 +42,7 @@ const config = {
           path: "docs",
           routeBasePath: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/CITOpenRep/timemanagement/tree/main/website/",
+          editUrl: "https://github.com/CITOpenRep/TimeManagement_Docs/tree/main/",
           versions: {
             current: {
               label: "Next 🚧",
