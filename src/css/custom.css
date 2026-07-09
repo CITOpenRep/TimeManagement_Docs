@@ -23,7 +23,7 @@ html[data-theme="dark"] {
   --ifm-color-primary: #de8742;
 }
 
-.navbar {
+.navbar:not(.navbar-sidebar--show) {
   backdrop-filter: blur(14px);
 }
 
