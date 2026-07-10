@@ -1,3 +1,10 @@
+---
+title: Project  
+sidebar_label: Project  
+description: Discover how to organize your team's work with the Projects module. Create projects, track deadlines, use quick swipe actions, and filter work by project stage.
+---
+
+
 # Projects
 
 The **Projects** module is used to create, organize, monitor, and manage all project-related activities within the Time Management App.

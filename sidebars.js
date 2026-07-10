@@ -22,11 +22,13 @@ const sidebars = {
             "user/user-manual/about-us",
             "user/user-manual/settings",
             "user/user-manual/projects",
+            "user/user-manual/project-updates",
             "user/user-manual/all-tasks",
             "user/user-manual/my-tasks",
-            "user/user-manual/project-updates",
             "user/user-manual/activities",
-            "user/user-manual/timesheets"
+            "user/user-manual/timesheets",
+            "user/user-manual/NL-Translation",
+            "user/user-manual/draftrich"
           ],
         }
       ]
@@ -65,7 +67,8 @@ const sidebars = {
       items: [
         "contributing/getting-started",
         "contributing/pull-request-guidelines",
-        "contributing/documentation-governance"
+        "contributing/documentation-governance",
+        "contributing/app-translation-guide"
       ]
     }
   ]

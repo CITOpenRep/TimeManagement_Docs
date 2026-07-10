@@ -1,14 +1,20 @@
-# Invoering
+---
+title: Introductie
+sidebar_label: Introductie
+description: Een introductie tot de Time Management App. Leer over het Dashboard, Projecten, Taakbeheer, Activiteiten, Urenstaten en Systeeminstellingen om uw dagelijkse workflow te stroomlijnen.
+---
 
-Welkom bij de documentatie van de Time Management App. Deze applicatie is een uitgebreide tool die is ontworpen om gebruikers te helpen hun werk efficiënt te organiseren, de tijd die aan activiteiten wordt besteed te controleren en lopende projecten te beheren.
+# Introductie
 
-## Kerncapaciteiten
+Welkom bij de documentatie van de Time Management-applicatie. Deze applicatie is een uitgebreide tool die is ontworpen om gebruikers te helpen hun werk efficiënt te organiseren, de bestede tijd aan activiteiten te monitoren en lopende projecten te beheren.
 
-De applicatie is verdeeld in verschillende onderling verbonden modules om een ​​naadloze workflow te bieden:
+## Kernmogelijkheden
 
-- **Dashboard**: fungeert als hoofdscherm en biedt een snel overzicht van taken, projecten en tijdsverdeling op basis van prioriteit.
-- **Projecten en updates**: Creëer, organiseer en monitor alle projectgerelateerde activiteiten, groepeer gerelateerde taken en onderhoud historische updaterecords voor zichtbaarheid van belanghebbenden.
-- **Taakbeheer**: individuele werkitems maken, toewijzen en volgen. De app beschikt over een speciale 'Mijn taken'-werkruimte waarmee individuele gebruikers zich specifiek kunnen concentreren op de hun toegewezen werklast.
-- **Activiteiten**: Organiseer het dagelijkse werk, houd vergaderingen, follow-ups en persoonlijke werkitems bij en koppel deze aan bredere projecten en taken.
-- **Urenstaten**: registreer dagelijkse werkuren, beheer handmatige of geautomatiseerde urenregistratie en ondersteun rapportage- en factureringsprocessen.
-- **Systeeminstellingen**: configureer de applicatie naar uw voorkeuren, inclusief thema-instellingen, pushmeldingen en achtergrondsynchronisatie met externe servers zoals Odoo.
+De applicatie is verdeeld in verschillende onderling verbonden modules om een naadloze workflow te bieden:
+
+- **Dashboard**: Fungeert als het hoofdscherm en biedt een snel overzicht van taken, projecten en tijdsverdeling op basis van prioriteit.
+- **Projecten & Updates**: Creëer, organiseer en monitor alle projectgerelateerde activiteiten, groepeer gerelateerde taken en houd historische updategegevens bij voor zichtbaarheid voor belanghebbenden.
+- **Taakbeheer**: Creëer, wijs toe en volg individuele werkitems. De app beschikt over een speciale "Mijn Taken" (My Tasks) werkruimte om individuele gebruikers te helpen zich specifiek te concentreren op hun toegewezen werkdruk.
+- **Activiteiten**: Organiseer dagelijks werk, houd vergaderingen, follow-ups en persoonlijke werkitems bij, en koppel ze aan bredere projecten en taken.
+- **Urenstaten**: Registreer dagelijkse werkuren, beheer handmatige of geautomatiseerde urenregistratie en ondersteun rapportage- en factureringsprocessen.
+- **Systeeminstellingen**: Configureer de applicatie naar uw voorkeuren, inclusief thema-instellingen, pushmeldingen en achtergrondsynchronisatie met externe servers zoals Odoo.

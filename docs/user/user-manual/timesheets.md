@@ -1,3 +1,9 @@
+---
+title: Timesheet 
+sidebar_label: Timesheet  
+description: Learn how to use the Timesheet module to record daily working hours, track effort across projects, and manage manual or automated timers.
+---
+
 # Timesheet
 
 The **Timesheet** module is used to record, manage, and monitor the time spent on projects, tasks, and daily work activities within the Time Management App.

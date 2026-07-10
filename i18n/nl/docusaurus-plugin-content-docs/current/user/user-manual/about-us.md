@@ -1,9 +1,15 @@
-# Over ons
+---
+title: Over Ons
+sidebar_label: Over Ons
+description: Ontdek de mogelijkheden en het doel van de Time Management-applicatie. Vind versiegegevens, voordelen en systeeminformatie in onze sectie Over Ons.
+---
 
-Het gedeelte **Over ons** biedt essentiële informatie over de Time Management-applicatie, inclusief het doel, versiedetails en belangrijkste mogelijkheden. Het is toegankelijk via het **Hoofdnavigatiemenu**.
+# Over Ons
 
-Dit gedeelte helpt gebruikers het volgende te begrijpen:
+De sectie **Over Ons** biedt essentiële informatie over de Time Management-applicatie, waaronder het doel, versiegegevens en de belangrijkste mogelijkheden. Deze is toegankelijk via het **Hoofdnavigatiemenu**.
+
+Deze sectie helpt gebruikers te begrijpen:
 * Wat de applicatie doet.
-* Voor wie het bedoeld is.
-* De belangrijkste kenmerken en voordelen.
+* Voor wie deze bedoeld is.
+* De belangrijkste functies en voordelen.
 * Systeem- en integratie-informatie.

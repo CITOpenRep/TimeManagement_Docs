@@ -1,77 +1,83 @@
+---
+title: Activiteiten
+sidebar_label: Activiteiten
+description: Een uitgebreide gids voor de Activiteiten-module. Ontdek hoe u toegang krijgt tot het dashboard, activiteiten aanmaakt en bewerkt, filtert op status en uw workflow efficiënt beheert.
+---
+
 # Activiteiten
 
-De module **Activiteiten** wordt gebruikt om dagelijkse activiteiten binnen de Time Management-app te creëren, beheren, volgen en monitoren.
+De module **Activiteiten** wordt gebruikt voor het aanmaken, beheren, volgen en monitoren van dagelijkse activiteiten binnen de Time Management-applicatie.
 
-Activiteiten helpen gebruikers:
-* Organiseer het dagelijkse werk efficiënt.
-* Houd vergaderingen, follow-ups en persoonlijke werkitems bij.
-* Houd de activiteitengeschiedenis bij en bewaak achterstallige activiteiten.
-* Verbeter de productiviteit en werkplanning.
-* Koppel activiteiten aan projecten, taken en deelprojecten.
-
----
-
-## Accessing the Activities Module
-To open the **Activities** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
-2. Select **Activities** from the sidebar navigation.
+Activiteiten helpen gebruikers om:
+* Dagelijks werk efficiënt te organiseren.
+* Vergaderingen, follow-ups en persoonlijke werkitems bij te houden.
+* De activiteitengeschiedenis bij te houden en achterstallige activiteiten te monitoren.
+* De productiviteit en werkplanning te verbeteren.
+* Activiteiten te koppelen aan projecten, taken en subprojecten.
 
 ---
 
-## Overzicht activiteitenscherm
+## Toegang tot de Activiteiten-module
+Om de sectie **Activiteiten** te openen:
+1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+2. Selecteer **Activiteiten** in de zijbalknavigatie.
+
+---
+
+## Overzicht van het Activiteitenscherm
 Het scherm is verdeeld in de volgende secties:
-1. Koptekstsectie (Filter van toegewezen persoon, pictogram toevoegen, zoekpictogram, terugnavigatie).
-2. Tabbladen voor activiteitenfilters (Vandaag, Deze week, Deze maand, Later, Te laat, Alles, Klaar).
-3. Activiteitenoverzichtpaneel.
-4. Paneel met activiteitsdetails.
-5. Snelle actiepictogrammen.
+1. Kopsectie (Toegewezen Persoon Filter, Toevoegen-icoon, Zoekicoon, Terugnavigatie).
+2. Activiteitenfilter Tabbladen (Vandaag, Deze Week, Deze Maand, Later, Achterstallig, Alles, Voltooid).
+3. Paneel Activiteitenoverzicht.
+4. Paneel Activiteitendetails.
+5. Iconen voor Snelle Acties.
 
 ---
 
-### Activiteitenoverzichtpaneel
-Toont alle activiteiten in een lijstformaat. Elke kaart geeft een overzicht van de activiteitsnaam, notities, toegewezen gebruiker, activiteitstype, geplande datum en status van achterstallige betalingen.
+### Paneel Activiteitenoverzicht
+Geeft alle activiteiten weer in een lijstformaat. Elke kaart vat de Activiteitsnaam, Notities, Toegewezen Gebruiker, Activiteitstype, Geplande Datum en Achterstallige Status samen.
 
-* **Activiteitstypen**: Vergadering, Taken, Opvolging, Herinnering, Bellen.
-* **Indicatie voor achterstallig**: Als een activiteit de geplande datum overschrijdt en niet wordt voltooid, wordt het label **Over tijd** in rood weergegeven.
+* **Activiteitstypes**: Vergadering, Taak (To-Do), Follow-Up, Herinnering, Bellen.
+* **Achterstallig-indicator**: Als een activiteit de geplande datum overschrijdt en niet is voltooid, wordt er een rood **Achterstallig** (Overdue) label weergegeven.
 
 ---
 
-## Een nieuwe activiteit aanmaken
-1. Klik op **➕ Pictogram toevoegen** in de rechterbovenhoek.
+## Een Nieuwe Activiteit Aanmaken
+1. Klik op het **➕ Toevoegen-icoon** in de rechterbovenhoek.
 2. Vul de vereiste informatie in.
-3. Klik op de knop **✔ Opslaan**.
+3. Klik op de **✔ Opslaan-knop**.
 
-### Velden voor het maken van activiteiten
+### Velden voor het Aanmaken van Activiteiten
 * **Account**: De verbonden omgeving.
-* **Project en subproject**: link naar een specifiek project om tracking mogelijk te maken.
-* **Taak en subtaak**: associëren met specifieke werkitems.
-* **Toegewezene**: De gebruiker die verantwoordelijk is voor de activiteit.
-* **Verbonden met**: bepaalt of de activiteit is gekoppeld aan een project of een taak.
-* **Samenvatting**: Primaire titel (bijvoorbeeld klantbijeenkomst, vervolggesprek).
-* **Opmerkingen**: Besprekingspunten, uitkomsten, herinneringen, vervolgacties.
-* **Activiteitstype**: activiteitscategorie (vergadering, taak, herinnering, oproep, discussie).
-* **Datum**: geplande geplande datum.
+* **Project & Subproject**: Koppel aan een specifiek project om tracering mogelijk te maken.
+* **Taak & Subtaak**: Associeer met specifieke werkitems.
+* **Toegewezen aan** (Assignee): De gebruiker die verantwoordelijk is voor de activiteit.
+* **Gekoppeld Aan**: Bepaalt of de activiteit is gekoppeld aan een Project of een Taak.
+* **Samenvatting**: Primaire titel (bijv. Klantgesprek, Follow-up Bellen).
+* **Notities**: Bespreekpunten, resultaten, herinneringen, follow-up acties.
+* **Activiteitstype**: Categorie van de activiteit (Vergadering, Taak, Herinnering, Bellen, Discussie).
+* **Datum**: Geplande datum.
 
 ---
 
-## Activiteiten bekijken en bewerken
-Selecteer de gewenste activiteit uit de overzichtslijst om volledige informatie weer te geven (samenvatting, notities, project-/taakinfo, toegewezen persoon, datum).
+## Activiteiten Bekijken en Bewerken
+Selecteer de gewenste activiteit uit de overzichtslijst om de volledige informatie weer te geven (Samenvatting, Notities, Project-/Taakinformatie, Toegewezen aan, Datum).
 
-Om te bewerken klikt u op het **Bewerkpictogram** (of veegt u naar links), werkt u de velden bij en klikt u op Opslaan.
-
----
-
-## Activiteiten zoeken
-Klik op het **Zoekpictogram** en voer tekst in om activiteiten direct te lokaliseren.
+Om te bewerken, klikt u op het **Bewerken-icoon** (of veeg naar links), werkt u de velden bij en klikt u op Opslaan.
 
 ---
 
-## Activiteit-swipe-acties
+## Activiteiten Zoeken
+Klik op het **Zoekicoon** en voer tekst in om activiteiten direct te vinden.
 
-**Veeg naar rechts Actie (verwijderen):**
-* Onthult een **Verwijderpictogram** om de geselecteerde activiteit uit het systeem te verwijderen.
+---
 
-**Veeg acties naar links:**
+## Activiteit Veegacties (Swipe Actions)
+
+**Veeg naar Rechts Actie (Verwijderen):**
+* Toont een **Verwijderen-icoon** om de geselecterde activiteit uit het systeem te verwijderen.
+
+**Veeg naar Links Acties:**
 * **Bewerken**: Opent het scherm voor het bewerken van activiteiten.
-* **Markeren als gereed**: wijzigt de activiteitsstatus in **Voltooid** en vernieuwt de lijst onmiddellijk.
-* **Follow-up**: Creëert een nieuw activiteitenformulier met vooraf ingevulde details (samenvatting, notities, projectinfo, toegewezen persoon, type) van de oorspronkelijke activiteit. Gebruikers kunnen details wijzigen en een nieuwe datum selecteren voordat ze opslaan, waarbij de oorspronkelijke datum ongewijzigd blijft.
+* **Markeren als Voltooid**: Verandert de activiteitsstatus naar **Voltooid** (Completed) en vernieuwt de lijst onmiddellijk.
+* **Follow-Up**: Maakt een nieuw formulier voor een activiteit aan met vooraf ingevulde gegevens (Samenvatting, Notities, Projectinfo, Toegewezen aan, Type) van de oorspronkelijke activiteit. Gebruikers kunnen de details wijzigen en een nieuwe datum selecteren voordat ze opslaan, waarbij het origineel ongewijzigd blijft.
