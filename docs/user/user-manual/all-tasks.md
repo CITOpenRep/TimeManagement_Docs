@@ -1,3 +1,9 @@
+---
+title: All Tasks
+sidebar_label: All Tasks
+description: A comprehensive guide to the Tasks module. Find out how to create and edit tasks, manage task stages, use swipe actions, and filter by assignees for efficient workload tracking.
+---
+
 # Tasks
 
 The **Tasks** module helps users create, organize, assign, and track individual or all work items within the Time Management App.

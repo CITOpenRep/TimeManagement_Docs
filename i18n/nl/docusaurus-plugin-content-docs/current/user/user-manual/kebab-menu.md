@@ -1,6 +1,12 @@
-# Kebab Menu (Overloopmenu)
+---
+title: Kebab-menu
+sidebar_label: Kebab-menu
+description: Ontdek de alternatieve navigatie-opties van het Kebab-menu. Krijg snel toegang tot uw dashboard, projecten, instellingen en meer zonder de volledige zijbalk te openen.
+---
 
-Het Kebab-menu (⋮) bevindt zich in de **rechterbovenhoek van de koptekst** en biedt snelle toegang tot de belangrijkste navigatie-items.
+# Kebab-menu 
+
+Het Kebab-menu (⋮) bevindt zich in de **rechterbovenhoek van de Kopsectie** en biedt snelle toegang tot belangrijke navigatie-items.
 
 ### Doel:
 * Biedt een alternatieve navigatiemethode voor de zijbalk.
@@ -10,11 +16,11 @@ Het Kebab-menu (⋮) bevindt zich in de **rechterbovenhoek van de koptekst** en 
 ### Menu-items:
 De volgende opties zijn beschikbaar in het Kebab-menu:
 * Dashboard
-* Rooster
+* Urenstaat
 * Activiteiten
-* Mijn taken
-* Alle taken
+* Mijn Taken
+* Alle Taken
 * Projecten
 * Projectupdates
-* Over ons
+* Over Ons
 * Instellingen

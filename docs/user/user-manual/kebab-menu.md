@@ -1,4 +1,10 @@
-# Kebab Menu (Overflow Menu)
+---
+title: Kebab Menu
+sidebar_label: Kebab Menu
+description: Discover the Kebab Menu's alternative navigation options. Quickly access your dashboard, projects, settings, and more without opening the full sidebar.
+---
+
+# Kebab Menu 
 
 The Kebab Menu (⋮) is located in the **top-right corner of the Header Section** and provides quick access to key navigation items.
 

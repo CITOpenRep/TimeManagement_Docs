@@ -1,3 +1,10 @@
+---
+title: My Tasks
+sidebar_label: My Tasks
+description: A complete guide to the My Tasks module in the Time Management App. Learn how to filter your assigned work, track overdue items, and manage active task timers seamlessly.
+---
+
+
 # My Tasks
 
 The **My Tasks** module is a personalized workspace that displays tasks assigned specifically to the logged-in user.
