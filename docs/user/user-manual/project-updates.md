@@ -21,7 +21,7 @@ Project Updates act as progress checkpoints and provide a centralized place to d
 
 ## Accessing the Project Updates Module
 To open the Project Updates section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **Project Updates** from the sidebar navigation.
 
 ---
@@ -54,7 +54,7 @@ Displays all updates in list format. Each card provides a summary: Update Title,
 ---
 
 ## Creating a New Project Update
-1. Open the **Project Updates** module and click the **➕ Add Icon**.
+1. Open the **Project Updates** module and click the **Add Icon**.
 2. Fill in the required update information.
 3. Click the **✔ Save Button**.
 

@@ -21,7 +21,7 @@ De sectie Projecten fungeert als een gecentraliseerde werkruimte voor alle lopen
 
 ## Toegang tot de Projecten-module
 Om de sectie **Projecten** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Projecten** in de zijbalknavigatie.
 
 ---
@@ -41,7 +41,7 @@ Bevindt zich bovenaan het Projectenscherm.
 
 **Kenmerken:**
 * **Zoekicoon**: Wordt gebruikt om projecten snel te zoeken.
-* **Raster/Lijstweergave-icoon**: Schakel tussen beschikbare projectweergave-indelingen.
+* **Raster/Lijstweergave-icoon**: Schakel tussen de beschikbare lay-outs voor projectweergave, waarbij u na het schakelen hoofdprojecten gevolgd door subprojecten kunt zien, of alleen hoofdprojecten, afhankelijk van de toegangsrechten.
 * **Toevoegen-icoon**: Creëer een nieuw project.
 * **Opslaan-icoon**: Sla nieuw aangemaakte of bewerkte projectdetails op.
 
@@ -68,9 +68,9 @@ Klikken op een willekeurig project in de projectenoverzichtslijst toont gedetail
 ## Een Nieuw Project Aanmaken
 Om een project aan te maken:
 1. Open de module **Projecten**.
-2. Klik op het **➕ Toevoegen-icoon**.
+2. Klik op het **Toevoegen-icoon**.
 3. Vul de vereiste projectinformatie in.
-4. Klik op de **✔ Opslaan-knop**.
+4. Klik op de **Opslaan-knop**.
 
 Het project zal vervolgens in de Projectenlijst verschijnen.
 
@@ -104,7 +104,7 @@ Om een bestaand project te bewerken:
 1. Selecteer het project uit de lijst.
 2. Klik op het bewerken-icoon rechtsboven.
 3. Werk de vereiste velden bij.
-4. Klik op de **✔ Opslaan-knop**.
+4. Klik op de **Opslaan-knop**.
 
 ---
 

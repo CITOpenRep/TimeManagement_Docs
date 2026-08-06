@@ -21,7 +21,7 @@ Projectupdates fungeren als voortgangscontrolepunten (checkpoints) en bieden een
 
 ## Toegang tot de Projectupdates-module
 Om de sectie Projectupdates te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Projectupdates** in de zijbalknavigatie.
 
 ---
@@ -54,7 +54,7 @@ Toont alle updates in lijstformaat. Elke kaart biedt een samenvatting: Updatetit
 ---
 
 ## Een Nieuwe Projectupdate Aanmaken
-1. Open de module **Projectupdates** en klik op het **➕ Toevoegen-icoon**.
+1. Open de module **Projectupdates** en klik op het **Toevoegen-icoon**.
 2. Vul de vereiste update-informatie in.
 3. Klik op de **✔ Opslaan-knop**.
 

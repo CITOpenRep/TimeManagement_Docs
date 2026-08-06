@@ -21,7 +21,7 @@ In tegenstelling tot de module **Alle Taken**, die taken voor alle gebruikers we
 
 ## Toegang tot de Mijn Taken-module
 Om de sectie **Mijn Taken** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Mijn Taken** in de zijbalknavigatie.
 
 ---
@@ -41,7 +41,7 @@ Het scherm bevat de volgende secties:
 * **Help-icoon**: Biedt snelle begeleiding of ondersteuningsinformatie.
 * **Zoek-icoon**: Stelt gebruikers in staat om taken direct te zoeken.
 * **Raster/Lijstweergave-icoon**: Schakel tussen verschillende taakweergave-indelingen.
-* **Toevoegen-icoon (➕)**: Wordt gebruikt om een nieuwe taak aan te maken.
+* **Toevoegen-icoon**: Wordt gebruikt om een nieuwe taak aan te maken.
 
 ---
 

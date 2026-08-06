@@ -21,7 +21,7 @@ Met deze module kunnen gebruikers:
 
 ## Toegang tot de Taken-module
 Om de sectie **Taken** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Alle Taken** in de zijbalknavigatie.
 
 Het Takenscherm wordt geopend en toont alle beschikbare taken.
@@ -57,9 +57,9 @@ Gebruikers kunnen nieuwe taken aanmaken, bestaande taken bewerken, gebruikers to
 ## Een Nieuwe Taak Aanmaken
 Om een taak aan te maken:
 1. Open de module **Alle Taken**.
-2. Klik op het **➕ Toevoegen-icoon** in de rechterbovenhoek.
+2. Klik op het **Toevoegen-icoon** in de rechterbovenhoek.
 3. Vul de vereiste taakdetails in.
-4. Klik op de **✔ Opslaan-knop**.
+4. Klik op de **Opslaan-knop**.
 
 ### Velden voor het Aanmaken van een Taak
 * **Account**: Bepaalt de verbonden account/omgeving.
@@ -67,7 +67,7 @@ Om een taak aan te maken:
 * **Hoofdtaak (Parent Task)**: Wordt gebruikt om subtaken onder een grotere taak aan te maken om de workflow te verbeteren.
 * **Toegewezen aan (Assignees)**: Bepaalt de verantwoordelijke gebruikers. U kunt meerdere gebruikers uit de lijst selecteren en het kruisje gebruiken om de selectie ongedaan te maken.
 * **Taaknaam**: De primaire, beschrijvende titel van het werkitem.
-* **Prioriteit**: Belangrijkheidsniveau weergegeven door een sterrenbeoordelingssysteem (bijv. ★☆☆ = Laag, ★★★ = Hoog).
+* **Prioriteit**: Belangrijkheidsniveau weergegeven door een sterrenbeoordelingssysteem 
 * **Beginfase (Initial Stage)**: Huidige workflowfase (Analyse, Ontwerp, enz.).
 * **Beschrijving**: Gedetailleerde informatie, doelstellingen en omvang van het werk.
 * **Geplande Uren**: Geschatte benodigde tijd (bijv. `01:00` = 1 uur).
@@ -88,7 +88,7 @@ Het selecteren van een taak uit het overzicht toont de volledige informatie (sta
 Om een bestaande taak te bewerken:
 1. Selecteer de taak uit de takenlijst en klik op het bewerken-icoon (of veeg de taak naar links en klik op het bewerken-icoon).
 2. Werk de vereiste velden bij.
-3. Klik op de **✔ Opslaan-knop**.
+3. Klik op de **Opslaan-knop**.
 
 ---
 

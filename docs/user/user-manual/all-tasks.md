@@ -21,7 +21,7 @@ This module enables users to:
 
 ## Accessing the Tasks Module
 To open the **Tasks** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **All Tasks** from the sidebar navigation.
 
 The Tasks screen will open and display all available tasks.
@@ -57,9 +57,9 @@ Users can create new tasks, edit existing tasks, assign users, set priorities, d
 ## Creating a New Task
 To create a task:
 1. Open the **All Tasks** module.
-2. Click the **➕ Add Icon** from the top-right corner.
+2. Click the **Add Icon** from the top-right corner.
 3. Fill in the required task details.
-4. Click the **✔ Save Button**.
+4. Click the **Save Button**.
 
 ### Task Creation Fields
 * **Account**: Defines the connected account/environment.
@@ -67,7 +67,7 @@ To create a task:
 * **Parent Task**: Used to create child tasks under a larger task to improve workflow.
 * **Assignees**: Defines the users responsible. You can select multiple users from the list and use the cross icon to unselect.
 * **Task Name**: The primary, descriptive title of the work item.
-* **Priority**: Importance level represented by a star rating system (e.g., ★☆☆ = Low, ★★★ = High).
+* **Priority**: Importance level represented by a star rating system 
 * **Initial Stage**: Current workflow stage (Analysis, Design, etc.).
 * **Description**: Detailed information, objectives, and scope of work.
 * **Planned Hours**: Estimated time required (e.g., `01:00` = 1 Hour).
@@ -88,7 +88,7 @@ Selecting a task from the overview displays complete information (status, assign
 To edit an existing task:
 1. Select the task from the task list and click the edit icon (or swipe the task to the left and click the edit icon).
 2. Update the required fields.
-3. Click the **✔ Save Button**.
+3. Click the **Save Button**.
 
 ---
 

@@ -14,7 +14,7 @@ Deze sectie is vooral nuttig voor nieuwe gebruikers om hun ervaring te personali
 
 ## Toegang tot Instellingen
 Om **Instellingen** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab-menu** icoon in de linkerbovenhoek.
 2. Selecteer **Instellingen** in de zijbalknavigatie.
 
 Het Instellingenscherm is verdeeld in meerdere configureerbare secties.
@@ -48,14 +48,14 @@ De sectie **Gekoppelde Accounts** stelt gebruikers in staat om meerdere omgeving
 * **Statusindicator**:
     * *In Behandeling (In Progress)*: Synchronisatie of verbinding is bezig.
     * *Succesvol (Successful)*: Verbinding is actief en werkt.
-* **Synchronisatie-icoon (🔄)**: Vernieuw of synchroniseer het account handmatig.
+* **Synchronisatie-icoon**: Vernieuw of synchroniseer het account handmatig.
 * **Selectievakje**: Activeer of selecteer een specifiek account.
-* **Toevoegen-knop (➕)**: Voeg een nieuw account toe.
+* **Toevoegen-knop**: Voeg een nieuw account toe.
 
 ---
 
 ## Een Nieuw Account Toevoegen
-Klik op het **(➕)** icoon om een nieuw account toe te voegen.
+Klik op het pluspictogram om een nieuw account toe te voegen.
 
 ### Secties in het scherm "Account Aanmaken" (Create Account):
 1. Accountgegevens (Account Details)
@@ -75,7 +75,7 @@ Deze sectie bepaalt hoe het account wordt weergegeven binnen de applicatie.
 Deze sectie wordt gebruikt om de app met uw server te verbinden.
 
 **Velden:**
-* **URL**: Voer de server-URL in. Voorbeeld: `https://tma.onestein.eu/`.
+* **URL**: Voer de server-URL in. Voorbeeld: `https://cit-services.in/`.
 
 Na het invoeren van de URL, klikt u op **Databases Ophalen** (Fetch Databases).
 
@@ -110,7 +110,7 @@ Deze sectie wordt gebruikt om uw account te verifiëren.
 **Velden:**
 * **Gebruikersnaam**: Voer uw inlog-gebruikersnaam in.
 * **Verbinden Met**: Verbind Met Wachtwoord of API-sleutel (Connect With Password or API Key).
-* **Wachtwoord**: Voer uw accountwachtwoord in. Gebruik de zichtbaarheidsschakelaar (👁) om het wachtwoord te bekijken of te verbergen.
+* **Wachtwoord**: Voer uw accountwachtwoord in. Gebruik de zichtbaarheidsschakelaar om het wachtwoord te bekijken of te verbergen.
 
 ### Synchronisatievoorkeuren
 Met deze sectie kunt u bepalen hoe gegevenssynchronisatie werkt.
@@ -122,13 +122,13 @@ Met deze sectie kunt u bepalen hoe gegevenssynchronisatie werkt.
 
 ### Accountinstelling Voltooien
 Na het invullen van alle vereiste velden:
-1. Klik op de **✔ (Opslaan/Bevestigen)** knop in de rechterbovenhoek.
+1. Klik op de Opslaan/Bevestigen knop in de rechterbovenhoek.
 2. Het systeem zal: Inloggegevens valideren, verbinding maken en het account toevoegen aan de lijst met Gekoppelde Accounts.
 
 ### Gedrag Na Instelling
 Zodra het account succesvol is aangemaakt:
 * Verschijnt het onder **Gekoppelde Accounts**.
-* Kunt u het activeren via het selectievakje en het handmatig synchroniseren via het 🔄 icoon.
+* Kunt u het activeren via het selectievakje en het handmatig synchroniseren via het icoon.
 * Kan de initiële synchronisatie automatisch beginnen.
 
 ---
@@ -141,7 +141,7 @@ Zodra het account succesvol is aangemaakt:
 * Het actieve account bepaalt waar uw gegevens worden gesynchroniseerd en opgeslagen.
 
 ### Een Account Synchroniseren
-* Klik op het **Synchronisatie (🔄)** icoon naast een account.
+* Klik op het Synchronisatie  icoon naast een account.
 * Het systeem haalt de nieuwste gegevens op en werkt taken, projecten, urenstaten, enz. bij.
 * De status wordt automatisch bijgewerkt (bijv. *In Behandeling → Succesvol*).
 
@@ -151,10 +151,10 @@ De lijst met **Gekoppelde Accounts** ondersteunt snelle acties met behulp van ve
 **Doel:** Snellere toegang bieden tot veelvoorkomende acties, de bruikbaarheid verbeteren (vooral op touch-apparaten) en het aantal navigatiestappen verminderen.
 
 **Beschikbare Acties:**
-* **Veeg naar Rechts (→): Account Bewerken**
+* **Veeg naar Rechts : Account Bewerken**
     * Veeg een account-item naar **rechts** om de optie **Bewerken** te onthullen.
     * Gebruik dit om de instantie-URL bij te werken, inloggegevens te wijzigen en accountconfiguratie aan te passen.
-* **Veeg naar Links (←): Opties voor Bekijken & Verwijderen**
+* **Veeg naar Links : Opties voor Bekijken & Verwijderen**
     * Veeg een account-item naar **links** om twee actie-iconen te onthullen:
         1. **Bekijken**: Opent accountgegevens en toont configuratie- en verbindingsinformatie.
         2. **Verwijderen**: Verwijdert het account uit de app.
@@ -167,7 +167,7 @@ De sectie **Meldingen** regelt hoe en wanneer de applicatie u waarschuwt, zodat 
 ### Meldingen Bekijken en Ermee Interageren
 Eenmaal ingeschakeld, kunt u via meerdere meldingskanalen op de hoogte blijven van uw werk:
 
-* **In-App Dashboard:** Tik op het **Bel-icoon (🔔)** in de bovenste koptekst van het dashboard. Dit opent een speciaal Meldingenpaneel waar u recente waarschuwingen kunt bekijken, tijdstempels kunt zien (bijv. "4m geleden"), kunt overschakelen naar een "Synchronisatie" (Sync) tabblad, of de knop **Alles Wissen** (Clear All) kunt gebruiken om ze te negeren.
+* **In-App Dashboard:** Tik op het Bel-icoon  in de bovenste koptekst van het dashboard. Dit opent een speciaal Meldingenpaneel waar u recente waarschuwingen kunt bekijken, tijdstempels kunt zien (bijv. "4m geleden"), kunt overschakelen naar een "Synchronisatie" (Sync) tabblad, of de knop **Alles Wissen** (Clear All) kunt gebruiken om ze te negeren.
 * **Apparaat Meldingenlade:** Waarschuwingen verschijnen automatisch in de standaard meldingenlade van uw telefoon.
 * **Vergrendelscherm & Banners:** U blijft meldingen ontvangen, zelfs als uw telefoon is vergrendeld. Bij gebruik van het apparaat kunnen waarschuwingen ook verschijnen als bannermeldingen boven de telefoonlade voor onmiddellijke zichtbaarheid.
 * **Snelle Navigatie:** Door op een melding uit de lade van uw telefoon of het vergrendelscherm te tikken, wordt de app naadloos geopend en wordt u direct naar de bijbehorende pagina geleid om de details te bekijken.
@@ -279,32 +279,76 @@ De sectie **Thema-instellingen** stelt gebruikers in staat om de visuele weergav
 ---
 
 ## Spraakmodel (Bèta)
-Met de instellingen voor het **Spraakmodel (Bèta)** kunt u rechtstreeks tekst dicteren in de app met behulp van de microfoon van uw apparaat. Omdat de verwerking lokaal op uw apparaat plaatsvindt, blijven uw spraakgegevens volledig privé en is er geen internetverbinding vereist na de initiële download van het model.
+De functie **Spraakmodel (Bèta)** stelt gebruikers in staat om tekst direct te dicteren in beschrijvingsvelden met meerdere regels in de applicatie, met behulp van de microfoon van hun apparaat. Ontworpen voor offline gebruik, waarbij alle spraak-naar-tekst verwerking lokaal op het apparaat van de gebruiker plaatsvindt zodra het benodigde spraakmodel is gedownload.
 
-Eenmaal geconfigureerd, is het spraakinvoer-icoon beschikbaar in de beschrijvingsvelden van taken, urenstaten, activiteiten en projectupdates. 
+### Belangrijkste doelen
+* **Handsfree invoer:** Biedt directe spraak-naar-tekst invoer in de belangrijkste workflowmodules.
+* **Offline werking:** Functioneert na installatie van het model naadloos zonder actieve internetverbinding.
+* **Beheer van systeembronnen:** Biedt configureerbare modelselecties die zijn afgestemd op de uiteenlopende geheugen- (RAM) en opslagcapaciteiten van apparaten.
 
-### Aan de Slag
-* Zorg ervoor dat u de schakelaar **"Spraakinvoer Inschakelen"** (Enable Voice Input) hebt ingeschakeld onder het instellingenscherm Spraakmodel (Bèta).
+---
 
-### Fasen van Spraakfunctie
-Bij het dicteren in een beschrijvingsveld:
-* Wanneer u op het spraak-icoon klikt, toont het **Starten** (Starting), vervolgens **Voorbereiden** (Preparing). 
-* Begin pas te spreken zodra het **Luisteren** (Listening) toont. 
-* Wanneer gestopt, toont het **Verwerken** (Processing) met een gele balk.
+## 2. Ondersteunde UI-velden
 
-### Automatische Stop & Limieten
-* Als u gedurende 7 seconden niet spreekt, stopt het spraak-icoon automatisch. 
-* De maximale duur voor een enkele opname is 5 minuten.
+Zodra ingeschakeld en geconfigureerd, verschijnt het microfoonpictogram voor spraakinvoer automatisch in de beschrijvingsvelden van de volgende modules:
+* **Taken-module** 
+* **Urenstaten-module** 
+* **Activiteiten-module** 
+* **Projectupdates-module** 
 
-### Downloads Beheren
-* Controleer uw internetverbinding voordat u een bestand downloadt. 
-* Onder **Beschikbaar voor Download** (Available For Download) vindt u verschillende spraakmodellen. Grotere modellen bieden een hogere nauwkeurigheid, maar vereisen meer apparaatgeheugen en ruimte. Kleinere modellen zijn sneller en gebruiken minder bronnen, maar zijn mogelijk minder nauwkeurig.
-* Tijdens het downloaden ziet u de knoppen **Laden** (Loading, aan het downloaden), **Pauze** en **Annuleren**. Door te pauzeren of de internetverbinding te verliezen, blijft uw voortgang behouden, zodat u later vanaf deze pagina kunt hervatten. Annuleren verwijdert de gedeeltelijke download.
-* Zodra het spraakmodel is gedownload, selecteert u het gewenste model uit de lijst met **Geïnstalleerde Modellen** (Installed Models). 
-* **Belangrijk:** Zelfs als er slechts één model is geïnstalleerd, is het selecteren van het model verplicht. Het geselecteerde model wordt weergegeven in **vetgedrukte** tekst, met een vinkje aan de rechterkant.
+---
 
-### Compatibiliteit & Fouten
-* Een rood waarschuwingsicoon geeft aan dat het model onverenigbaar is met uw apparaat (meestal vanwege RAM-limieten), maar u kunt nog steeds proberen het te downloaden. Erop klikken toont een waarschuwing waarbij u kunt kiezen tussen "Annuleren" of "Toch Downloaden" (Download Anyway).
+## 3. Schermindeling & Navigatie
 
-### Modellen Verwijderen
-* Om een geïnstalleerd model te verwijderen, veegt u de naam ervan naar links en klikt u op het verwijder-icoon.
+**Navigatiepad:** `Instellingen` > `Spraakmodel (Bèta)`
+
+### 3.1 Knoppen in de koptekst
+* **Info-pictogram :** Activeert de pop-up **"Over spraakmodellen"**. Deze pop-up bevat details over het privacybeleid (lokale verwerking), vergelijkingen van modelgroottes, dicteerfasen, automatische stoplimieten, regels voor modelselectie en richtlijnen voor verwijdering.
+* **Zoek-pictogram :** Schakelt de zoekbalk in om de lijst met modellen onder *Beschikbaar om te downloaden* te filteren op taal of variant (bijv. "Engels (Indiaas)", "Engels (VS)").
+
+### 3.2 Algemene schakelaars
+* **Spraakinvoer inschakelen:** Hoofdschakelaar. Moet op **AAN** staan om microfoonpictogrammen weer te geven in ondersteunde beschrijvingsvelden van de applicatie.
+* **Lage geheugenmodus:** Optimalisatieschakelaar voor apparaten met lagere specificaties om het geheugengebruik tijdens lokale verwerking te minimaliseren.
+
+---
+
+## 4. Levenscyclus van modelbeheer
+
+### 4.1 Beschikbare modellen & Downloaden
+1. **Zoeken & Filteren:** Gebruikers kunnen naar modellen zoeken op regio of taalnaam.
+2. **Afwegingen per model:**
+   * **Grotere modellen (> 2,5 GB):** Bieden een hogere nauwkeurigheid, maar verbruiken aanzienlijk meer RAM en opslagruimte op het apparaat.
+   * **Kleinere modellen:** Bieden een snellere verwerking en een lager geheugengebruik met een iets lagere nauwkeurigheid.
+3. **Downloadknoppen:**
+   * **Starten:** Klikken op het downloadpictogram naast een model activeert een korte *"Download gestart"*-melding en toont een real-time voortgangsbalk (bijv. `Downloaden... 17%`).
+   * **Pauzeren / Hervatten:** Bij verlies van de internetverbinding of het handmatig indrukken van **Pauze** blijft de gedeeltelijke downloadvoortgang behouden, zodat de gebruiker later vanaf hetzelfde scherm kan hervatten.
+   * **Annuleren:** Drukken op de knop Annuleren activeert de pop-up *"Download geannuleerd"*, stopt de download en verwijdert alle gedeeltelijke gegevensbestanden van de lokale opslag.
+
+### 4.2 Hardwarecompatibiliteit & Waarschuwingen
+* **Controles van RAM-beperkingen:** Modellen die de aanbevolen hardwarespecificaties overschrijden, geven een rood **Waarschuwingspictogram** weer.
+* **Waarschuwing bij downloaden:** Een poging om een incompatibel/groot model te downloaden, toont een waarschuwingsscherm dat wijst op mogelijke RAM-limieten. De gebruiker kan kiezen voor **Annuleren** of **Toch downloaden**.
+* **Waarschuwing bij selectie:** Een poging om een geïnstalleerd model te activeren dat de hardwarelimieten overschrijdt, toont een vergelijkend scherm met *Modelgrootte vs. Apparaat RAM*, met de opties **Annuleren** of **Toch selecteren**.
+
+### 4.3 Geïnstalleerde modellen & Actieve selectie
+* **Verplichte activering:** Alleen het downloaden van een model is onvoldoende; expliciete activering is vereist, zelfs als er slechts één model is geïnstalleerd.
+* **Visuele indicator:** Het momenteel actieve model wordt gemarkeerd met **vetgedrukte tekst** met een **vinkje** aan de rechterkant.
+* **Model verwijderen:** Gebruikers kunnen een rij van een geïnstalleerd model naar links vegen en op het onthulde **Prullenbak / Verwijderen**-pictogram tikken om het modelbestand te verwijderen en opslagruimte vrij te maken.
+
+---
+
+## 5. Uitvoering dicteren & Workflow
+
+### 5.1 Spraak-naar-tekst statussen
+
+| Fase | Visuele indicator | Systeemgedrag | Vereiste gebruikersactie |
+| :--- | :--- | :--- | :--- |
+| **Initialisatie** | `Starten` | Wijst lokaal geheugen toe en laadt het model. | Wachten |
+| **Voorbereiding** | `Voorbereiden` | Initialiseert de audio-opnamebuffer. | Wachten |
+| **Actief luisteren** | `Luisteren` | Microfoon registreert actief spraakinvoer. | **Duidelijk spreken** |
+| **Verwerken** | `Verwerken` (Gele balk) | Lokale verwerkingsengine zet audio om naar tekst. | Wachten |
+| **Voltooiing** | Getranscribeerde tekst ingevoegd | Plakt de uitvoer in het geselecteerde beschrijvingsveld. | Tekst controleren / bewerken |
+
+### 5.2 Systeembeperkingen & Automatiseringsregels
+* **Automatische stop bij stilte:** Als er gedurende **7 opeenvolgende seconden** geen spraak wordt gedetecteerd, stopt de microfoon automatisch met luisteren en gaat over naar `Verwerken`.
+* **Maximale sessieduur:** Een enkele dicteersessie is beperkt tot maximaal **5 aaneengesloten minuten**. Bij het bereiken van de limiet van 5 minuten stopt de opname automatisch en wordt de vastgelegde audio omgezet naar tekst.
+* **Offline functionaliteit:** Teksttranscriptie functioneert volledig zonder actieve mobiele of wifi-verbinding zodra een actief model lokaal is geladen.

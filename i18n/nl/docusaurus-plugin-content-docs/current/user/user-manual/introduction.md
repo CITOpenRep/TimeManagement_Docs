@@ -17,4 +17,4 @@ De applicatie is verdeeld in verschillende onderling verbonden modules om een na
 - **Taakbeheer**: Creëer, wijs toe en volg individuele werkitems. De app beschikt over een speciale "Mijn Taken" (My Tasks) werkruimte om individuele gebruikers te helpen zich specifiek te concentreren op hun toegewezen werkdruk.
 - **Activiteiten**: Organiseer dagelijks werk, houd vergaderingen, follow-ups en persoonlijke werkitems bij, en koppel ze aan bredere projecten en taken.
 - **Urenstaten**: Registreer dagelijkse werkuren, beheer handmatige of geautomatiseerde urenregistratie en ondersteun rapportage- en factureringsprocessen.
-- **Systeeminstellingen**: Configureer de applicatie naar uw voorkeuren, inclusief thema-instellingen, pushmeldingen en achtergrondsynchronisatie met externe servers zoals Odoo.
+- **Systeeminstellingen**: Configureer de applicatie naar uw voorkeuren, inclusief thema-instellingen, pushmeldingen en achtergrondsynchronisatie met externe servers.
