@@ -14,7 +14,7 @@ This section is especially useful for first-time users to personalize their expe
 
 ## Accessing Settings
 To open **Settings**:
-1. Click on the **Menu (☰)** icon in the top-left corner.
+1. Click on the **Kebab-menu** icon in the top-left corner.
 2. Select **Settings** from the sidebar navigation.
 
 The Settings screen is divided into multiple configurable sections.
@@ -48,14 +48,14 @@ The **Connected Accounts** section allows users to link and manage multiple envi
 * **Status Indicator**:
     * *In Progress*: Sync or connection is ongoing.
     * *Successful*: Connection is active and working.
-* **Sync Icon (🔄)**: Manually refresh or sync the account.
+* **Sync Icon**: Manually refresh or sync the account.
 * **Checkbox Selector**: Activate or select a specific account.
-* **Add Button (➕)**: Add a new account.
+* **Add Button**: Add a new account.
 
 ---
 
 ## Adding a New Account
-Click on the **(➕)** icon to add a new account.
+Click on the plus icon to add a new account.
 
 ### Sections in “Create Account” Screen:
 1. Account Details
@@ -75,7 +75,7 @@ This section defines how the account will appear inside the application.
 This section is used to connect the app to your server.
 
 **Fields:**
-* **URL**: Enter the server URL. Example: `https://tma.onestein.eu/`.
+* **URL**: Enter the server URL. Example: `https://cit-services.in/`.
 
 After entering the URL, click **Fetch Databases**.
 
@@ -110,7 +110,7 @@ This section is used to authenticate your account.
 **Fields:**
 * **Username**: Enter your login username.
 * **Connect With**: Connect With Password or API Key.
-* **Password**: Enter your account password. Use the visibility toggle (👁) to view or hide the password.
+* **Password**: Enter your account password. Use the visibility toggle icon to view or hide the password.
 
 ### Sync Preferences
 This section allows you to control how data synchronization works.
@@ -122,13 +122,13 @@ This section allows you to control how data synchronization works.
 
 ### Completing Account Setup
 After filling all required fields:
-1. Click the **✔ (Save/Confirm)** button at the top-right corner.
+1. Click the  Save/Confirm button at the top-right corner.
 2. The system will: Validate credentials, establish connection, and add the account to the Connected Accounts list.
 
 ### Post-Setup Behavior
 Once the account is successfully created:
 * It appears under **Connected Accounts**.
-* You can activate it using the checkbox and sync it manually using the 🔄 icon.
+* You can activate it using the checkbox and sync it manually using the sync icon.
 * Initial synchronization may begin automatically.
 
 ---
@@ -141,7 +141,7 @@ Once the account is successfully created:
 * The active account determines where your data is synced and stored.
 
 ### Syncing an Account
-* Click the **Sync (🔄)** icon next to an account.
+* Click the Sync icon next to an account.
 * The system will fetch the latest data and update tasks, projects, timesheets, etc.
 * Status will update automatically (e.g., *In Progress → Successful*).
 
@@ -151,10 +151,10 @@ The **Connected Accounts** list supports quick actions using swipe gestures, all
 **Purpose:** Provide faster access to common actions, improve usability (especially on touch devices), and reduce navigation steps.
 
 **Available Actions:**
-* **Swipe Right (→): Edit Account**
+* **Swipe Right : Edit Account**
     * Swipe an account item to the **right** to reveal the **Edit** option.
     * Use this to update instance URL, modify login credentials, and change account configuration.
-* **Swipe Left (←): View & Delete Options**
+* **Swipe Left : View & Delete Options**
     * Swipe an account item to the **left** to reveal two action icons:
         1. **View**: Opens account details and displays configuration and connection information.
         2. **Delete**: Removes the account from the app.
@@ -167,7 +167,7 @@ The **Notifications** section controls how and when the application alerts you, 
 ### Viewing and Interacting with Notifications
 Once enabled, you can stay up-to-date with your work through multiple notification channels:
 
-* **In-App Dashboard:** Tap the **Bell icon (🔔)** located in the top header of the dashboard. This opens a dedicated Notifications panel where you can review recent alerts, see timestamps (e.g., "4m ago"), switch to a "Sync" tab, or use the **Clear All** button to dismiss them.
+* **In-App Dashboard:** Tap the Bell icon  located in the top header of the dashboard. This opens a dedicated Notifications panel where you can review recent alerts, see timestamps (e.g., "4m ago"), switch to a "Sync" tab, or use the **Clear All** button to dismiss them.
 * **Device Notification Drawer:** Alerts will automatically appear in your phone's standard notification drawer.
 * **Lock Screen & Banners:** You will continue to receive notifications even when your phone is locked. When using the device, alerts may also appear as banner notifications above the phone drawer for immediate visibility.
 * **Quick Navigation:** Tapping on any notification from your phone's drawer or lock screen will seamlessly open the app and take you directly to the corresponding page to view the details.
@@ -279,32 +279,85 @@ The **Theme Settings** section allows users to customize the visual appearance o
 ---
 
 ## Voice Model (Beta)
-The **Voice Model (Beta)** settings allow you to dictate text directly into the app using your device’s microphone. Because processing happens locally on your device, your voice data remains completely private and no internet connection is required after the initial model download.
+The **Voice Model (Beta)** feature enables users to dictate text directly into multi-line description fields across the application using their device's microphone. Designed for offline capability and  all speech-to-text processing occurs locally on the user's device once the necessary voice model is downloaded.
 
-Once configured, the voice input icon will be available in the description fields of tasks, timesheets, activities, and project updates. 
+### Key Objectives
+* **Hands-Free Input:** Provide direct speech-to-text input across key workflow modules.
+* **Offline Operation:** Function seamlessly without an active internet connection after model installation.
+* **Resource Management:** Offer configurable model selections tailored to varying device memory (RAM) and storage capabilities.
 
-### Getting Started
-* Make sure you have enabled the **"Enable Voice Input"** toggle under the Voice Model (Beta) settings screen.
+---
 
-### Voice Feature Stages
-When dictating in a description field:
-* When you click the voice icon, it will show **Starting**, then **Preparing**. 
-* Only start speaking once it shows **Listening**. 
-* When stopped, it will show **Processing** with a yellow bar.
+## 2. Supported UI Fields
 
-### Auto-Stop & Limits
-* If you do not speak for 7 seconds, the voice icon will automatically stop. 
-* The maximum duration for a single recording is 5 minutes.
+Once enabled and configured, the voice input microphone icon will automatically appear in description fields across the following modules:
+* **Tasks Module** 
+* **Timesheets Module** 
+* **Activities Module** 
+* **Project Updates Module** 
 
-### Managing Downloads
-* Check your internet connectivity before downloading a file. 
-* Under **Available For Download**, you will find various voice models. Larger models provide higher accuracy but require more device memory and space. Smaller models are faster and use fewer resources but may be less accurate.
-* During download, you will see **Loading** (downloading), **Pause**, and **Cancel** buttons. Pausing or losing internet will preserve your progress, allowing you to resume later from this page. Cancelling will delete the partial download.
-* Once the voice model is downloaded, select the model you want from the **Installed Models** list. 
-* **Important:** Even if only one model is installed, selecting the model is mandatory. The selected model will be shown in **bold** text, with a tick mark to its right.
+---
 
-### Compatibility & Errors
-* A red warning icon indicates the model is incompatible with your device (usually due to RAM limits), but you can still attempt to download it. Clicking it will prompt a warning where you can choose to "Cancel" or "Download Anyway".
+## 3. Screen Layout & Navigation
 
-### Deleting Models
-* To remove an installed model, swipe its name to the left and click the delete icon.
+**Navigation Path:** `Settings` > `Voice Model (Beta)`
+
+### 3.1 Header Bar Controls
+* **Info Icon :** Triggers the **"About Voice Models"** popup. This modal details privacy policies (local processing), model size comparisons, dictation stages, auto-stop limits, model selection rules, and deletion guidelines.
+* **Search Icon :** Toggles the search input bar to filter the list of models under *Available For Download* by language or variant (e.g., "English (Indian)", "English (US)").
+
+### 3.2 Global Toggles
+* **Enable Voice Input:** Master toggle switch. Must be turned **ON** to expose microphone icons in supported application description fields.
+* **Low Memory Mode:** Optimization toggle for low-spec devices to minimize memory allocation during local inference.
+
+---
+
+## 4. Model Management Lifecycle
+
+
+
+
+### 4.1 Available Models & Downloading
+1. **Search & Filter:** Users can search models by locale or language name.
+2. **Model Trade-Offs:**
+   * **Larger Models (> 2.5 GB):** Provide higher accuracy but consume significant device RAM and storage.
+   * **Smaller Models:** Offer faster processing and lower memory usage with slightly lower accuracy.
+3. **Download Controls:**
+   * **Initiating:** Clicking the download icon next to a model triggers a brief *"Download Started"* toast and displays a real-time progress bar (e.g., `Downloading... 17%`).
+   * **Pause / Resume:** Losing internet connection or manually pressing **Pause** retains partial download progress, allowing the user to resume later from the same screen.
+   * **Cancel:** Pressing the Cancel  button triggers a *"Download Cancelled"* popup, halts the download, and purges all partial data files from local storage.
+
+### 4.2 Hardware Compatibility & Warnings
+* **RAM Restriction Checks:** Models exceeding recommended hardware specifications display a red **Warning Icon**.
+* **Download Warning Prompt:** Attempting to download an incompatible/large model prompts a warning modal stating potential RAM limits. The user can choose **Cancel** or **Download Anyway**.
+* **Selection Warning Prompt:** Attempting to activate an installed model that exceeds hardware limits displays a comparative modal showing *Model Size vs Device RAM*, offering **Cancel** or **Select Anyway**.
+
+### 4.3 Installed Models & Active Selection
+* **Mandatory Activation:** Simply downloading a model is insufficient; explicit activation is required even if only one model is installed.
+* **Visual Indicator:** The currently active model is highlighted in **bold text** with a **checkmark / tick mark** displayed on its right side.
+* **Model Deletion:** Users can swipe an installed model row to the left and tap the revealed **Trash / Delete** icon to remove the model file and reclaim storage space.
+
+---
+
+## 5. Dictation Execution & Workflow
+
+
+
+
+### 5.1 Speech-to-Text States
+
+| Stage | Visual Indicator | System Behavior | User Action Required |
+| :--- | :--- | :--- | :--- |
+| **Initialization** | `Starting` | Allocates local memory and loads model. | Wait |
+| **Preparation** | `Preparing` | Initializes audio capture buffer. | Wait |
+| **Active Listening** | `Listening` | Microphone actively captures voice input. | **Speak clearly** |
+| **Processing** | `Processing` (Yellow Bar) | Local inference engine converts audio to text. | Wait |
+| **Completion** | Transcribed Text Inserted | Appends output into the focused description field. | Review / Edit text |
+
+### 5.2 System Constraints & Automation Rules
+* **Silence Auto-Stop Threshold:** If no speech is detected for **7 consecutive seconds**, the microphone automatically stops listening and transitions to `Processing`.
+* **Maximum Session Duration:** A single dictation session is capped at **5 continuous minutes**. Upon hitting the 5-minute limit, recording automatically stops and converts the captured audio to text.
+* **Offline Functionality:** Text transcription functions fully without an active cell or Wi-Fi connection once an active model is loaded locally.
+
+
+

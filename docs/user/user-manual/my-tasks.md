@@ -22,7 +22,7 @@ Unlike the **All Tasks** module, which displays tasks for all users, the **My Ta
 
 ## Accessing the My Tasks Module
 To open the **My Tasks** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **My Tasks** from the sidebar navigation.
 
 ---
@@ -42,7 +42,7 @@ The screen contains the following sections:
 * **Help Icon**: Provides quick guidance or support information.
 * **Search Icon**: Allows users to search tasks instantly.
 * **Grid/List View Icon**: Switch between different task display layouts.
-* **Add Icon (➕)**: Used to create a new task.
+* **Add Icon**: Used to create a new task.
 
 ---
 

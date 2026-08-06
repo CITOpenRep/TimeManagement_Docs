@@ -6,7 +6,7 @@ description: Ontdek de alternatieve navigatie-opties van het Kebab-menu. Krijg s
 
 # Kebab-menu 
 
-Het Kebab-menu (⋮) bevindt zich in de **rechterbovenhoek van de Kopsectie** en biedt snelle toegang tot belangrijke navigatie-items.
+Het Kebab-menu bevindt zich in de **rechterbovenhoek van de Kopsectie** en biedt snelle toegang tot belangrijke navigatie-items.
 
 ### Doel:
 * Biedt een alternatieve navigatiemethode voor de zijbalk.

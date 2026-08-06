@@ -30,11 +30,11 @@ Het Dashboard bestaat uit de volgende hoofdsecties:
 Bevindt zich bovenaan het scherm.
 
 ### Kenmerken:
-* **Menu-icoon (☰):** Opent het zijnavigatiemenu.
+* **Menu-icoon :** Opent het zijnavigatiemenu.
 * **Accountnaam:** Toont het actieve gebruikersaccount.
 * **Toevoegen-icoon (Klok met +):** Wordt gebruikt om snel een nieuwe urenstaat-invoer (timesheet entry) aan te maken.
-* **Meldingen-icoon (🔔):** Toont waarschuwingen en updates.
-* **Info-icoon (ⓘ):** Biedt aanvullende informatie over de dashboardgrafiekengids.
+* **Meldingen-icoon :** Toont waarschuwingen en updates.
+* **Info-icoon :** Biedt aanvullende informatie over de dashboardgrafiekengids.
 
 ---
 
@@ -65,13 +65,13 @@ Onder de Prioriteitenmatrix is het dashboard verdeeld in drie primaire tabbladen
 ### 1. Tabblad Overzicht
 Toont visuele grafieken voor urenregistratie.
 * **Meest Tijdrovende Projecten (Donutgrafiek):** Visuele weergave van de tijdsverdeling over projecten. Grotere segmenten duiden op een hoger tijdsgebruik.
-* **Bestede Tijd per Project (Staafdiagram):** Toont de bestede tijd per project. De assen maken een visuele vergelijking van de inspanning over projecten mogelijk. Bevat onderaan een **"Toon volgende 10 ↓"** knop om meer gegevens te laden.
-
+* **Percentagewaarde:** Het exacte aandeel van de totale geregistreerde tijd dat aan dit specifieke project is toegewezen (bijv. "51,8%").
 ### 2. Tabblad Projecten
 Toont gedetailleerde informatie over gebruikersprojecten, samen met een hoofdtotaal van de gelogde uren over alle projecten.
+* **Bestede Tijd per Project (Staafdiagram):** Toont de bestede tijd per project. De assen maken een visuele vergelijking van de inspanning over projecten mogelijk. Bevat **"Toon volgende 10"** en **"Toon minder"** knoppen zijn onderaan beschikbaar om de projectenlijst uit te breiden.
 
 ### 3. Tabblad Taken
-Een speciaal tabblad voor het beheren en bekijken van individuele taken.* **"Toon volgende 10"** en **"Toon minder"** knoppen zijn onderaan beschikbaar om de projectenlijst uit te breiden.
+Een speciaal tabblad voor het beheren en bekijken van individuele taken.* 
 
 * **Zoekbalk:** Maakt het snel opzoeken van projecten mogelijk ("Zoek projecten...").
 * **Sorteeropties:**

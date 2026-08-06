@@ -6,7 +6,7 @@ description: Discover the Kebab Menu's alternative navigation options. Quickly a
 
 # Kebab Menu 
 
-The Kebab Menu (⋮) is located in the **top-right corner of the Header Section** and provides quick access to key navigation items.
+The Kebab Menu  is located in the **top-right corner of the Header Section** and provides quick access to key navigation items.
 
 ### Purpose:
 * Offers an alternative navigation method to the sidebar.

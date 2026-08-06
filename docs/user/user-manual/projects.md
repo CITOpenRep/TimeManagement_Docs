@@ -22,7 +22,7 @@ The Projects section acts as a centralized workspace for all ongoing and complet
 
 ## Accessing the Projects Module
 To open the **Projects** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **Projects** from the sidebar navigation.
 
 ---
@@ -42,7 +42,7 @@ Located at the top of the Projects screen.
 
 **Features:**
 * **Search Icon**: Used to search projects quickly.
-* **Grid/List View Icon**: Switch between available project display layouts.
+* **Grid/List View Icon**: Switch between available project display layouts, which on switching can see parents projects followed by sub projects or only parent projects depending upon the access rights.
 * **Add Icon**: Create a new project.
 * **Save Icon**: Save newly created or edited project details.
 
@@ -69,9 +69,9 @@ Clicking on any project from the project overview list will display detailed inf
 ## Creating a New Project
 To create a project:
 1. Open the **Projects** module.
-2. Click the **➕ Add Icon**.
+2. Click the **Add Icon**.
 3. Fill in the required project information.
-4. Click the **✔ Save Button**.
+4. Click the **Save Button**.
 
 The project will then appear in the Projects List.
 
@@ -105,7 +105,7 @@ To edit an existing project:
 1. Select the project from the list.
 2. Click on the edit icon from the top right.
 3. Update the required fields.
-4. Click the **✔ Save Button**.
+4. Click the **Save Button**.
 
 ---
 

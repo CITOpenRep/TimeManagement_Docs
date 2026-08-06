@@ -30,11 +30,11 @@ The Dashboard consists of the following key sections:
 Located at the top of the screen.
 
 ### Features:
-* **Menu Icon (☰):** Opens the side navigation menu.
+* **Menu Icon:** Opens the side navigation menu.
 * **Account Name:** Displays the active user account.
 * **Add Icon (Clock with +):** Used to quickly create a new timesheet entry.
-* **Notification Icon (🔔):** Displays alerts and updates.
-* **Info Icon (ⓘ):** Provides additional information about dashboard chart guide.
+* **Notification Icon :** Displays alerts and updates.
+* **Info Icon:** Provides additional information about dashboard chart guide.
 
 ---
 
@@ -65,14 +65,15 @@ Below the Priority Matrix, the dashboard is divided into three primary tabs: **O
 ### 1. Overview Tab
 Displays visual charts for time tracking.
 * **Most Time-Consuming Projects (Donut Chart):** Visual representation of time distribution across projects. Larger segments indicate higher time usage.
-* **Project-wise Time Spent (Bar Chart):** Displays time spent per project. The axes allow visual comparison of effort across projects. Includes a **"Show next 10 ↓"** button at the bottom to load more data.
+* **Percentage Value:** The exact proportion of total logged time attributed to this specific project (e.g., "51.8%").
 
 ### 2. Projects Tab
 Displays detailed information about user projects, along with a master total of hours logged across all projects.
+* **Project-wise Time Spent (Bar Chart):** Displays time spent per project. The axes allow visual comparison of effort across projects. Includes **"Show next 10" and "Show fewer"** buttons are available at the bottom to expand the projects list.
 
 
 ### 3. Tasks Tab
-A dedicated tab for managing and viewing individual tasks.*  **"Show next 10" and "Show fewer"** buttons are available at the bottom to expand the projects list.
+A dedicated tab for managing and viewing individual tasks.  
 
 
 * **Search Bar:** Enables quick project lookup ("Search projects…").
