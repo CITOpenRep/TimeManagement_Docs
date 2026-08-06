@@ -1,6 +1,7 @@
 ---
 title: Feature Catalog
 sidebar_label: All Features
+unlisted: true
 ---
 
 # Feature Catalog
