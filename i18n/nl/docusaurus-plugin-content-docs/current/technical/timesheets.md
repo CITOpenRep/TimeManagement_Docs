@@ -64,8 +64,15 @@ De actieve timerstatus wordt bepaald door `models/timer_service.js` en blijft be
 
 ---
 
-## D-Bus-oproepinterface
+Urenstaat-operaties: `models/timesheet.js`
 
-* `LogTime(timesheet_data_json)`: Pusht een nieuw urenstaatrecord.
-* `GetActiveTimer()`: Haalt details op van de lopende timer, indien actief.
-* `StopActiveTimer()`: Stopt de timer en formatteert de verstreken tijd in een nieuwe urenstaatinvoer.
+Timer-operaties: `models/timer_service.js`
+
+Waar de logica is gedefinieerd:
+* `saveTimesheet(data)`: Slaat een nieuw urenstaatrecord op / voegt dit toe in SQLite.
+* `createTimesheet(instance_id, userid)`: Instantieert een nieuw leeg urenstaatrecord.
+* `isRunning()`: Controleert of de timer actief is.
+* `getActiveTimesheetId()`: Haalt de ID van de actieve urenstaat op.
+* `getStartTime()`: Haalt het starttijdstip (timestamp) van de timer op.
+* `getElapsedTime(format)`: Berekent en formatteert de huidige verstreken trackingduur.
+* `stop()`: Stopt de actieve timer, berekent de verstreken trackingtijd, werkt de SQLite-urenstateninvoer bij met behulp van `Model.updateTimesheetWithDuration(...)` en wijzigt de status hiervan.

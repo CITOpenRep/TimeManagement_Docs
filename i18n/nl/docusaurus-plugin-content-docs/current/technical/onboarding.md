@@ -12,8 +12,12 @@ Op deze pagina wordt de onboarding-stroomvolgorde beschreven die wordt gepresent
 | Laag | Pad | Doel |
 |---|---|---|
 | **Stroomcoördinator** | `qml/TSApp.qml` | Detecteert de onboardingstatus en geeft een overlay weer |
-| **Onboarding-UI** | `qml/features/settings/Onboarding.qml` | Carrouselschuifregelaar, hulplijnen en initiële configuratievorm |
 | **Statusopslag** | `models/database.js` | Verificatie van database-initialisatie-instelling |
+
+### Wat er feitelijk gebeurt
+
+* **Status-initialisatie**: De databasestructuur wordt automatisch geïnitialiseerd bij het opstarten van de app met behulp van `models/dbinit.js`.
+* **Eerste configuratie**: Als de gebruiker geen accounts heeft ingesteld, configureert hij of zij de Odoo-verbinding rechtstreeks via de standaard accountaanmaakpagina op `qml/features/settings/pages/Account_Page.qml`.
 
 ## Onboarding-uitvoeringsstroom
 

@@ -11,7 +11,8 @@ The Profiles module handles user profile setups and provides local data isolatio
 
 | Layer | Path | Purpose |
 |---|---|---|
-| **UI Components** | `qml/features/settings/Profiles.qml` | Profile selection and instance switching interface |
+| **Active Instance / Account Switcher (UI)** | `qml/components/dialogs/AccountSelectorDialog.qml` | Provides the pop-up/dialog overlay used globally across pages to switch the current active Odoo account. It is instantiated globally as `accountPicker` in `qml/app/GlobalWidgets.qml`. |
+| **Accounts List and Settings Management (UI)** | `qml/features/settings/pages/Settings_Accounts.qml` | Handles the creation, deletion, configuration list, and sync trigger actions for the different Odoo accounts. |
 | **Logic & State** | `models/accounts.js` | Session validation and active instance token switching |
 
 ## Database Multi-Instance Isolation

@@ -61,7 +61,13 @@ sequenceDiagram
 
 ---
 
-## D-Bus Call Interface
+The frontend queries and updates projects directly in the local SQLite database using functions defined in:
 
-* `GetProjects()`: Returns a JSON array of all active projects.
-* `ToggleProjectFavorite(project_id, state)`: Marks a project as favorite locally.
+Path: `models/project.js`
+
+Where the logic is defined:
+
+
+* `getProjectsForAccount(accountId)`: Returns projects associated with a given account.
+* `getProjectsForAccountPaginated(accountId, limit, offset)`: Paginated version for infinite scroll.
+* `getProjectsFilteredPaginated(options)`: Used to query/filter projects in the UI.

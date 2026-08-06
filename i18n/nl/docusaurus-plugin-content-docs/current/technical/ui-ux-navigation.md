@@ -12,9 +12,9 @@ Op deze pagina worden het raamwerk van de gebruikersinterface, de navigatieroute
 | Laag | Pad | Doel |
 |---|---|---|
 | **Wortelschelp** | `qml/TSApp.qml` | Applicatie-ingangspunt en lay-outshell |
-| **Hamburgermenu**| `qml/components/NavigationMenu.qml` | Desktop/mobiele navigatielade |
+| **Hamburgermenu**| `qml/components/navigation/NavigationMenuList.qml` | Desktop/mobiele navigatielade |
 | **Gedeelde lay-outs** | `qml/components/` | Aangepaste rasters, tekstwidgets en pictogrammen |
-| **Bijlage-UI** | `qml/features/updates/Attachments.qml` | Bijlagenraster en browserschermen |
+| **Bijlage-UI** | `qml/components/workflow/AttachmentManager.qml` | Bijlagenraster en browserschermen |
 | **Helperhulpprogramma's** | `models/utils.js` | UI-formaten en themahelpers |
 
 ## Interfaceontwerp en navigatie-indeling
@@ -31,7 +31,7 @@ Navigatie verwerkt de sequentiële hiërarchie (bijvoorbeeld Projecten -> Taken 
 StackView {
     id: pageStack
     anchors.fill: parent
-    initialItem: Qt.resolvedUrl("features/dashboard/Dashboard.qml")
+    initialItem: Qt.resolvedUrl("features/dashboard/pages/Dashboard.qml")
 }
 ```
 

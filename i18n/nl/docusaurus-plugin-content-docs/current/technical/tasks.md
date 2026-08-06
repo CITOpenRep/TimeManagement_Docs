@@ -66,9 +66,15 @@ sequenceDiagram
 
 ---
 
-## D-Bus-oproepinterface
+De frontend vraagt taken rechtstreeks op en werkt deze bij in de lokale SQLite-database met behulp van functies die zijn gedefinieerd in:
 
-* `GetTasks()`: Retourneert JSON met alle taken.
-* `UpdateTaskStage(task_id, stage_id)`: zet een taak over naar een andere Kanban-fase.
-* `CreateTask(task_data_json)`: Creëert lokaal een nieuwe taak en synchroniseert wachtrijen.
-* `RescheduleTask(task_id, new_deadline)`: Updates van deadlinedata.
+Pad: `models/task.js`
+
+Waar de logica is gedefinieerd:
+* `getTasksForAccount(accountId)`: Retourneert taken die zijn gekoppeld aan een bepaald account.
+* `getAllTasksForAccount(accountId)`: Haalt alle taken op.
+* `getAllTasksForAccountPaginated(accountId, limit, offset, dateFilter)`: Gepagineerde taaklader voor oneindig scrollen.
+* `updateTaskStage(taskId, stageOdooRecordId, accountId)`: Zet de reguliere fase van een taak over.
+* `updateTaskPersonalStage(taskId, personalStageOdooRecordId, accountId)`: Zet de persoonlijke/gebruikersfase van een taak over.
+* `saveOrUpdateTask(data)`: Creëert/slaat een nieuw taakrecord op in SQLite als de eigenschap `record_id` niet is meegegeven in het ingevoerde `data`-object.
+* `saveOrUpdateTask(data)` of `edittaskData(data)`: Verwerkt taakwijzigingen, inclusief het opnieuw plannen/bijwerken van de kolom `deadline` van het taakrecord.

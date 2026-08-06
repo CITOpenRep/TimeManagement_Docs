@@ -11,7 +11,8 @@ De module Profielen regelt de instellingen van gebruikersprofielen en biedt loka
 
 | Laag | Pad | Doel |
 |---|---|---|
-| **UI-componenten** | `qml/features/settings/Profiles.qml` | Profielselectie en interface voor het wisselen van instanties |
+| **Actieve instantie / Accountwisselaar (UI)** | `qml/components/dialogs/AccountSelectorDialog.qml` | Biedt de pop-up/dialoog-overlay die wereldwijd op alle pagina's wordt gebruikt om van actieve Odoo-account te wisselen. Deze is wereldwijd geïnstantieerd als `accountPicker` in `qml/app/GlobalWidgets.qml`. |
+| **Accountlijst en instellingenbeheer (UI)** | `qml/features/settings/pages/Settings_Accounts.qml` | Verwerkt het aanmaken, verwijderen, de configuratielijst en de acties voor het triggeren van de synchronisatie van de verschillende Odoo-accounts. |
 | **Logica en status** | `models/accounts.js` | Sessievalidatie en schakelen tussen actieve exemplaartokens |
 
 ## Isolatie van meerdere databases
