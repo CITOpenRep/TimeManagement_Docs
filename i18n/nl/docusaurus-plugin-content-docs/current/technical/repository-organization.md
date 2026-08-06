@@ -5,7 +5,7 @@ sidebar_label: Opslagorganisatie
 
 # Opslagorganisatie
 
-Deze pagina is de Docusaurus-migratie van de repositoryorganisatierichtlijnen.
+Deze pagina schetst de structuur en organisatie van het repository.
 
 ## Principes van opslag
 

@@ -66,9 +66,15 @@ sequenceDiagram
 
 ---
 
-## D-Bus Call Interface
+The frontend queries and updates tasks directly in the local SQLite database using functions defined in:
 
-* `GetTasks()`: Returns JSON containing all tasks.
-* `UpdateTaskStage(task_id, stage_id)`: Transitions a task to a different Kanban stage.
-* `CreateTask(task_data_json)`: Instantiates a new task locally and queues sync.
-* `RescheduleTask(task_id, new_deadline)`: Updates deadline dates.
+Path: `models/task.js`
+
+Where the logic is defined:
+* `getTasksForAccount(accountId)`: Returns tasks associated with a given account.
+* `getAllTasksForAccount(accountId)`: Retrieves all tasks.
+* `getAllTasksForAccountPaginated(accountId, limit, offset, dateFilter)`: Paginated task loader for infinite scroll.
+* `updateTaskStage(taskId, stageOdooRecordId, accountId)`: Transitions a task's regular stage.
+* `updateTaskPersonalStage(taskId, personalStageOdooRecordId, accountId)`: Transitions a task's personal/user stage.
+* `saveOrUpdateTask(data)`: Creates/saves a new task record in SQLite if the `record_id` property is not supplied in the input `data` object.
+* `saveOrUpdateTask(data)` or `edittaskData(data)`: Handles task modifications including rescheduling/updating the `deadline` column of the task record.

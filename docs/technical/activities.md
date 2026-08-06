@@ -64,8 +64,11 @@ sequenceDiagram
 
 ## D-Bus Call Interface
 
-The frontend communicates with the background service daemon using the following D-Bus methods declared in `src/backend.py`:
+The frontend communicates with the background service daemon using the following D-Bus methods.
 
+Path: `models/activity.js`, Where the logic is defined:
 * `CreateActivity(activity_data_json)`: Invoked to spawn a new activity.
 * `CompleteActivity(activity_id)`: Marks an activity as done locally and queues it for the sync process.
 * `DeleteActivity(activity_id)`: Deletes an activity locally and queues removal on Odoo.
+
+These JS functions modify the local SQLite tables (marking records with `status = "updated"`), which are then scanned and synchronized with the Odoo backend asynchronously by the daemon services in `src/daemon.py` and `src/sync_to_odoo.py`.

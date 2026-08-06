@@ -65,8 +65,18 @@ sequenceDiagram
 
 ---
 
-## D-Bus-oproepinterface
+De synchronisatie-functies zijn gedefinieerd als standaard Python-functies in de backend-bestanden en worden rechtstreeks vanuit de QML-interface aangeroepen via PyOtherSide.
 
-* `TriggerSync()`: Activeert handmatig de achtergrondsynchronisatiewerker.
-* `GetSyncStatus()`: Retourneert JSON met de tijdstempel, status en logboeken van de laatste uitvoering.
-* `VerifyConnection(url, username, password)`: Vraagt ​​Odoo via XML-RPC om DB-parameters te valideren vóór registratie.
+Deze functies bevinden zich in de volgende Python-bestanden:
+* **Core Backend-interface**: `src/backend.py`
+* **Configuratie van de instellingendatabase**: `src/config.py`
+
+Waar de logica is gedefinieerd:
+* `start_sync_in_background(settings_db, account_id)` (in `src/backend.py`): Aangeroepen door QML om de synchronisatiewerker handmatig uit te voeren in een achtergrond-thread.
+
+De status- en uitvoeringsmetagegevens worden rechtstreeks bijgehouden in de database-instellingen met behulp van:
+* `get_account_sync_settings(db_path, account_id)` (in `src/config.py`): Laadt synchronisatie-intervallen, voorkeuren voor synchronisatierichting en de `last_synced_at`-tijdstempel.
+* `update_last_synced_at(db_path, account_id)` (in `src/config.py`): Werkt de tijdstempel van de laatste synchronisatie bij in de SQLite-tabel `users`.
+* `check_server_reachability(url, timeout)` (in `src/backend.py`): Valideert of de doelserver bereikbaar is.
+* `fetch_databases(url)` (in `src/backend.py`): Haalt de lijst op met databases die beschikbaar zijn op de doel-URL.
+* `login_odoo(selected_url, username, password, selected_db)` (in `src/backend.py`): Logt in op Odoo via XML-RPC om de gebruikersgegevens en de databaseconfiguratie te valideren.

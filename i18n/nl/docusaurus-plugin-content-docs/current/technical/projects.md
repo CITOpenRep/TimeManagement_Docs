@@ -61,7 +61,13 @@ sequenceDiagram
 
 ---
 
-## D-Bus-oproepinterface
+De frontend vraagt projecten rechtstreeks op en werkt deze bij in de lokale SQLite-database met behulp van functies die zijn gedefinieerd in:
 
-* `GetProjects()`: Retourneert een JSON-array van alle actieve projecten.
-* `ToggleProjectFavorite(project_id, state)`: Markeert een project lokaal als favoriet.
+Pad: `models/project.js`
+
+Waar de logica is gedefinieerd:
+
+
+* `getProjectsForAccount(accountId)`: Retourneert projecten die zijn gekoppeld aan een bepaald account.
+* `getProjectsForAccountPaginated(accountId, limit, offset)`: Gepagineerde versie voor oneindig scrollen.
+* `getProjectsFilteredPaginated(options)`: Wordt gebruikt om projecten in de UI te zoeken en te filteren.

@@ -12,8 +12,12 @@ This page describes the onboarding flow sequence presented during the first exec
 | Layer | Path | Purpose |
 |---|---|---|
 | **Flow Coordinator** | `qml/TSApp.qml` | Detects onboarding status and renders overlay |
-| **Onboarding UI** | `qml/features/settings/Onboarding.qml` | Carousel slider, guides, and initial config form |
 | **State Storage** | `models/database.js` | Database initialization setting verification |
+
+### What actually happens
+
+* **State Initialization**: The database structure is initialized automatically on app boot using `models/dbinit.js`.
+* **First-Time Configuration**: If the user has no accounts set up, they configure their Odoo connection directly through the standard account creation page at `qml/features/settings/pages/Account_Page.qml`.
 
 ## Onboarding Execution Flow
 

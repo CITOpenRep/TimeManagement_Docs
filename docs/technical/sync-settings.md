@@ -65,8 +65,18 @@ sequenceDiagram
 
 ---
 
-## D-Bus Call Interface
+The sync functions are defined as standard Python functions in the backend files and invoked directly from the QML interface via PyOtherSide.
 
-* `TriggerSync()`: Manually fires the background sync worker.
-* `GetSyncStatus()`: Returns JSON containing the last execution timestamp, state, and logs.
-* `VerifyConnection(url, username, password)`: Queries Odoo via XML-RPC to validate DB parameters before registration.
+These functions are located in the following Python files:
+* **Core Backend Interface**: `src/backend.py`
+* **Settings Database Configuration**: `src/config.py`
+
+Where the logic is defined:
+* `start_sync_in_background(settings_db, account_id)` (in `src/backend.py`): Called by QML to manually run the sync worker in a background thread.
+
+The status and execution metadata are tracked directly inside the database settings using:
+* `get_account_sync_settings(db_path, account_id)` (in `src/config.py`): Loads synchronization intervals, direction preferences, and the `last_synced_at` timestamp.
+* `update_last_synced_at(db_path, account_id)` (in `src/config.py`): Updates the last sync timestamp in the `users` SQLite table.
+* `check_server_reachability(url, timeout)` (in `src/backend.py`): Validates if the target server is alive.
+* `fetch_databases(url)` (in `src/backend.py`): Fetches the list of databases available at the target URL.
+* `login_odoo(selected_url, username, password, selected_db)` (in `src/backend.py`): Logs in to Odoo via XML-RPC to validate user credentials and db configuration.

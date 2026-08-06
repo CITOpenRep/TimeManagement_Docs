@@ -12,9 +12,9 @@ This page describes the user interface framework, navigation routing patterns, d
 | Layer | Path | Purpose |
 |---|---|---|
 | **Root Shell** | `qml/TSApp.qml` | Application entry point and layout shell |
-| **Hamburger Menu**| `qml/components/NavigationMenu.qml` | Desktop/mobile navigation drawer |
+| **Hamburger Menu**| `qml/components/navigation/NavigationMenuList.qml` | Desktop/mobile navigation drawer |
 | **Shared Layouts** | `qml/components/` | Custom grids, text widgets, and icons |
-| **Attachment UI** | `qml/features/updates/Attachments.qml` | Attachments grid and browser screens |
+| **Attachment UI** | `qml/components/workflow/AttachmentManager.qml` | Attachments grid and browser screens |
 | **Helper Utils** | `models/utils.js` | UI formats and theme helpers |
 
 ## Interface Design and Navigation Layout
@@ -31,7 +31,7 @@ Navigation handles sequential hierarchy (e.g. Projects -> Tasks -> Timesheets) u
 StackView {
     id: pageStack
     anchors.fill: parent
-    initialItem: Qt.resolvedUrl("features/dashboard/Dashboard.qml")
+    initialItem: Qt.resolvedUrl("features/dashboard/pages/Dashboard.qml")
 }
 ```
 

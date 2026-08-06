@@ -5,7 +5,7 @@ sidebar_label: Repository Organization
 
 # Repository Organization
 
-This page is the Docusaurus migration of the repository organization guidance.
+This page outlines the structure and organization of the repository.
 
 ## Storage principles
 

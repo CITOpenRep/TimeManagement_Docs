@@ -64,8 +64,15 @@ The active timer state is governed by `models/timer_service.js` and persists acr
 
 ---
 
-## D-Bus Call Interface
+Timesheet Operations: `models/timesheet.js`
 
-* `LogTime(timesheet_data_json)`: Pushes a new timesheet record.
-* `GetActiveTimer()`: Retrieves details of the running timer if active.
-* `StopActiveTimer()`: Stops the timer and formats the elapsed time into a new timesheet entry.
+Timer Operations: `models/timer_service.js`
+
+Where the logic is defined:
+* `saveTimesheet(data)`: Saves/inserts a new timesheet record into SQLite.
+* `createTimesheet(instance_id, userid)`: Instantiates a new empty timesheet record.
+* `isRunning()`: Checks if the timer is active.
+* `getActiveTimesheetId()`: Retrieves the active timesheet ID.
+* `getStartTime()`: Retrieves the timer start timestamp.
+* `getElapsedTime(format)`: Calculates and formats current elapsed tracking duration.
+* `stop()`: Stops the active timer, calculates the elapsed tracking time, updates the SQLite timesheet entry using `Model.updateTimesheetWithDuration(...)`, and changes its status.
