@@ -61,7 +61,7 @@ Tabbladen voor snelle toegang om taken te organiseren op basis van tijdlijn en v
 ### Paneel Mijn Taken Overzicht
 Toont alle toegewezen taakkaarten in een gestructureerd lijstformaat. Elke kaart bevat: Taaknaam, Gerelateerde Projectnaam, Taakfase, Prioriteitsbeoordeling, Geplande Uren, Startdatum, Einddatum en Achterstallige Status.
 
-* **Prioriteitsindicator**: Weergegeven met sterrenbeoordelingen (bijv. ★☆☆ voor Laag).
+* **Prioriteitsindicator**: Weergegeven met sterrenbeoordelingen.
 * **Achterstallig-indicator**: Toont de achterstallige duur in het rood als de taak de geplande einddatum overschrijdt.
 
 ---
@@ -74,7 +74,7 @@ Elk taakitem biedt planningsinformatie (Geplande Uren, Startdatum, Einddatum, Fa
 ## Taken Beheren vanuit Mijn Taken
 
 **Een Nieuwe Taak Aanmaken:**
-1. Klik op het **➕ Toevoegen-icoon** of de Zwevende Actieknop (FAB).
+1. Klik op het **Toevoegen-icoon** of de Zwevende Actieknop (FAB).
 2. Voer de vereiste taakinformatie in en klik op **Opslaan**.
 
 **Bekijken en Bewerken:**

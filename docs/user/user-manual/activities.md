@@ -19,7 +19,7 @@ Activities help users:
 
 ## Accessing the Activities Module
 To open the **Activities** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **Activities** from the sidebar navigation.
 
 ---
@@ -43,9 +43,9 @@ Displays all activities in a list format. Each card summarizes the Activity Name
 ---
 
 ## Creating a New Activity
-1. Click the **➕ Add Icon** from the top-right corner.
+1. Click the **Add Icon** from the top-right corner.
 2. Fill in the required information.
-3. Click the **✔ Save Button**.
+3. Click the **Save Button**.
 
 ### Activity Creation Fields
 * **Account**: The connected environment.
