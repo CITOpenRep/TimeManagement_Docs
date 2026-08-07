@@ -19,7 +19,7 @@ Activiteiten helpen gebruikers om:
 
 ## Toegang tot de Activiteiten-module
 Om de sectie **Activiteiten** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Activiteiten** in de zijbalknavigatie.
 
 ---
@@ -43,9 +43,9 @@ Geeft alle activiteiten weer in een lijstformaat. Elke kaart vat de Activiteitsn
 ---
 
 ## Een Nieuwe Activiteit Aanmaken
-1. Klik op het **➕ Toevoegen-icoon** in de rechterbovenhoek.
+1. Klik op het **Toevoegen-icoon** in de rechterbovenhoek.
 2. Vul de vereiste informatie in.
-3. Klik op de **✔ Opslaan-knop**.
+3. Klik op de **Opslaan-knop**.
 
 ### Velden voor het Aanmaken van Activiteiten
 * **Account**: De verbonden omgeving.

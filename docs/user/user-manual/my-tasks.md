@@ -62,7 +62,7 @@ Quick-access tabs to organize tasks based on timeline and completion status.
 ### My Tasks Overview Panel
 Displays all assigned task cards in a structured list format. Each card includes: Task Name, Related Project Name, Task Stage, Priority Rating, Planned Hours, Start Date, End Date, and Overdue Status.
 
-* **Priority Indicator**: Represented using star ratings (e.g., ★☆☆ for Low).
+* **Priority Indicator**: Represented using star ratings 
 * **Overdue Indicator**: Displays the overdue duration in red if the task exceeds its planned end date.
 
 ---
@@ -75,7 +75,7 @@ Each task item provides scheduling information (Planned Hours, Start Date, End D
 ## Managing Tasks from My Tasks
 
 **Creating a New Task:**
-1. Click the **➕ Add Icon** or Floating Action Button.
+1. Click the **Add Icon** or Floating Action Button.
 2. Enter required task information and click **Save**.
 
 **Viewing and Editing:**

@@ -19,7 +19,7 @@ Deze module helpt gebruikers om:
 
 ## Toegang tot de Urenstaat-module
 Om de sectie **Urenstaat** te openen:
-1. Klik op het **Menu (☰)** icoon in de linkerbovenhoek.
+1. Klik op het **Kebab Menu** icoon in de linkerbovenhoek.
 2. Selecteer **Urenstaat** in de zijbalknavigatie.
 
 ---
@@ -44,7 +44,7 @@ Toont gegevens in een lijstformaat, met een samenvatting van: Urenstaattitel, Pr
 ---
 
 ## Een Nieuwe Urenstaat-invoer Aanmaken
-Klik op het **➕ Toevoegen-icoon** of tik op de **Zwevende Actieknop (FAB)** en selecteer **Aanmaken** (Create). Vul de informatie in en klik op de **✔ Opslaan-knop**.
+Klik op het **Toevoegen-icoon** of tik op de **Zwevende Actieknop (FAB)** en selecteer **Aanmaken** (Create). Vul de informatie in en klik op de **Opslaan-knop**.
 
 ### Velden voor het Aanmaken van een Urenstaat
 * **Account, Project, Subproject, Taak, Subtaak**: Koppel de invoer aan specifieke organisatorische en werkitems om nauwkeurige rapportage te ondersteunen.

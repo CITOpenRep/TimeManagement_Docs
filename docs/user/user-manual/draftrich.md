@@ -52,4 +52,4 @@ The editor features a top toolbar with various styling options to format your te
 * **Microphone Icon:** Located on the far left of the formatting toolbar. Tapping this icon activates the configured Voice Model, allowing you to dictate text directly into the rich text editor without typing.
 
 ### Saving Changes
-* Once you have finished editing, tap the **Tick (✔)** button in the top-right corner to save your changes and apply them to the description field.
+* Once you have finished editing, tap the **Tick** button in the top-right corner to save your changes and apply them to the description field.

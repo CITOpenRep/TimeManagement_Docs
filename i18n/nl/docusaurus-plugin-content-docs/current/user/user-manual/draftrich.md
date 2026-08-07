@@ -51,4 +51,4 @@ De editor beschikt over een bovenste werkbalk met verschillende opmaakopties om 
 * **Microfoon-icoon:** Bevindt zich uiterst links op de opmaakwerkbalk. Tikken op dit icoon activeert het geconfigureerde Spraakmodel, waardoor u tekst rechtstreeks in de rich text editor kunt dicteren zonder te typen.
 
 ### Wijzigingen Opslaan
-* Zodra u klaar bent met bewerken, tikt u op de **Vinkje (✔)** knop in de rechterbovenhoek om uw wijzigingen op te slaan en ze toe te passen op het beschrijvingsveld.
+* Zodra u klaar bent met bewerken, tikt u op de **Vinkje** knop in de rechterbovenhoek om uw wijzigingen op te slaan en ze toe te passen op het beschrijvingsveld.

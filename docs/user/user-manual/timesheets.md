@@ -19,7 +19,7 @@ This module helps users:
 
 ## Accessing the Timesheet Module
 To open the **Timesheet** section:
-1. Click the **Menu (☰)** icon from the top-left corner.
+1. Click the **Kebab Menu** icon from the top-left corner.
 2. Select **Timesheet** from the sidebar navigation.
 
 ---
@@ -44,7 +44,7 @@ Displays records in a list format, summarizing: Timesheet Title, Project Name, T
 ---
 
 ## Creating a New Timesheet Entry
-Click the **➕ Add Icon** or tap the **Floating Action Button (FAB)** and select **Create**. Fill in the information and click the **✔ Save Button**.
+Click the **Add Icon** or tap the **Floating Action Button (FAB)** and select **Create**. Fill in the information and click the **✔ Save Button**.
 
 ### Timesheet Creation Fields
 * **Account, Project, Subproject, Task, Subtask**: Link the entry to specific organizational and work items to support accurate reporting.
@@ -82,7 +82,7 @@ When using **Automated** tracking, clicking the **Stop Button** automatically op
 Draft entries can be finalized directly from the overview screen:
 1. Open the **Draft** tab.
 2. Swipe the required entry toward the left.
-3. Tap the **✔ Mark as Done** icon.
+3. Tap the **Mark as Done** icon.
 
 A success message appears: *"Timesheet is now ready to be synced to Odoo."* The entry moves from the Draft tab to the All tab, changes to **Completed** status, and becomes available for Odoo synchronization.
 
