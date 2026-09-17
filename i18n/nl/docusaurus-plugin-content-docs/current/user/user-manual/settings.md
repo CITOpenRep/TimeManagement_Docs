@@ -152,19 +152,20 @@ Tijdens actieve synchronisatie (handmatig of op de achtergrond) verschijnt er ee
 * **Vloeiendere Animaties**: Uitgerust met een geanimeerd synchronisatie-icoon en een soepele voortgangsbalk onderaan die dynamisch meeloopt naarmate items worden gesynchroniseerd.
 * **Gedetailleerde Procesdetails**: Toont de specifieke synchronisatiefase of het entiteitstype dat momenteel wordt verwerkt (bijv. `Syncing CIT` - `Syncing from Server project.task`).
 
-### Accounts Beheren (Veegacties)
-De lijst met **Gekoppelde Accounts** ondersteunt snelle acties met behulp van veegbewegingen, waardoor gebruikers accounts efficiënt kunnen beheren zonder extra schermen te openen.
+### Accounts Beheren (Veegacties & Opschoning)
+De lijst met **Gekoppelde Accounts** ondersteunt snelle acties met behulp van veegbewegingen om accounts efficiënt te beheren.
 
-**Doel:** Snellere toegang bieden tot veelvoorkomende acties, de bruikbaarheid verbeteren (vooral op touch-apparaten) en het aantal navigatiestappen verminderen.
+> [!NOTE]
+> **Opschoning van acties voor lokale accounts**: Veegacties zijn niet beschikbaar voor het ingebouwde **Lokale Account**. Zowel voorwaartse (naar rechts vegen) als achterwaartse (naar links vegen) acties zijn uitsluitend beschikbaar voor **externe of instantie-accounts**, waardoor de lokale kernomgeving beschermd blijft tegen per ongeluk wijzigen of verwijderen.
 
-**Beschikbare Acties:**
-* **Veeg naar Rechts : Account Bewerken**
+**Beschikbare Acties (Alleen Externe & Instantie-accounts):**
+* **Veeg naar Rechts (Voorwaartse Actie): Account Bewerken**
     * Veeg een account-item naar **rechts** om de optie **Bewerken** te onthullen.
     * Gebruik dit om de instantie-URL bij te werken, inloggegevens te wijzigen en accountconfiguratie aan te passen.
-* **Veeg naar Links : Opties voor Bekijken & Verwijderen**
+* **Veeg naar Links (Achterwaartse Acties): Opties voor Bekijken & Verwijderen**
     * Veeg een account-item naar **links** om twee actie-iconen te onthullen:
         1. **Bekijken**: Opent accountgegevens en toont configuratie- en verbindingsinformatie.
-        2. **Verwijderen**: Verwijdert het account uit de app.
+        2. **Verwijderen**: Verwijdert het externe account uit de app.
 
 ---
 

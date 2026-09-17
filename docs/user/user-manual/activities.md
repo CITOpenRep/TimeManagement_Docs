@@ -34,6 +34,12 @@ The screen is divided into the following sections:
 
 ---
 
+### Activity Scheduling with DaySelector
+* **"Tomorrow" Quick Filter**: The DaySelector features a dedicated **Tomorrow** filter for activities allowing users to quickly plan, organize, and view upcoming tasks and events scheduled for the next business day.
+* **Standard Ranges**: Quickly filter views between **Today**, **This Week**, **This Month**, **Later**, **OverDue**, **All**, and **Done**.
+
+---
+
 ### Activities Overview Panel
 Displays all activities in a list format. Each card summarizes the Activity Name, Notes, Assigned User, Activity Type, Planned Date, and Overdue Status.
 
@@ -48,10 +54,11 @@ Displays all activities in a list format. Each card summarizes the Activity Name
 3. Click the **Save Button**.
 
 ### Activity Creation Fields
-* **Account**: The connected environment.
+* **Account**: The connected environment (Remote or Local).
+* **Local Mode Support**: Full activity creation is supported for Local Accounts. Activity types and user assignees are fully resolved and filtered locally, allowing complete activity management without requiring a remote server connection.
 * **Project & Subproject**: Link to a specific project to enable tracking.
 * **Task & Subtask**: Associate with specific work items.
-* **Assignee**: The user responsible for the activity.
+* **Assignee**: The user responsible for the activity (filtered appropriately based on the selected account).
 * **Connected To**: Defines whether the activity is linked to a Project or a Task.
 * **Summary**: Primary title (e.g., Client Meeting, Follow-up Call).
 * **Notes**: Discussion points, outcomes, reminders, follow-up actions.

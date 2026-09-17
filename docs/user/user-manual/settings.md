@@ -152,16 +152,17 @@ During any active synchronization (manual or background), a redesigned floating 
 * **Smoother Animations**: Equipped with an animated sync icon and a smooth progress bar at the bottom that dynamically advances as items synchronize.
 * **Granular Process Details**: Displays the specific sync stage or entity currently being processed (e.g., `Syncing CIT` - `Syncing from Server project.task`).
 
-### Managing Accounts (Swipe Actions)
-The **Connected Accounts** list supports quick actions using swipe gestures, allowing users to efficiently manage accounts without opening additional screens.
+### Managing Accounts (Swipe Actions & Action Cleanup)
+The **Connected Accounts** list supports quick actions using swipe gestures to manage accounts efficiently.
 
-**Purpose:** Provide faster access to common actions, improve usability (especially on touch devices), and reduce navigation steps.
+> [!NOTE]
+> **Action Cleanup for Local Accounts**: Swipe actions are not available for the built-in **Local Account**. Leading and trailing swipe actions are exclusively available for **remote or instance accounts**, protecting the core local environment from accidental modification or deletion.
 
-**Available Actions:**
-* **Swipe Right : Edit Account**
+**Available Actions (Remote & Instance Accounts Only):**
+* **Swipe Right (Leading Action): Edit Account**
     * Swipe an account item to the **right** to reveal the **Edit** option.
     * Use this to update instance URL, modify login credentials, and change account configuration.
-* **Swipe Left : View & Delete Options**
+* **Swipe Left (Trailing Actions): View & Delete Options**
     * Swipe an account item to the **left** to reveal two action icons:
         1. **View**: Opens account details and displays configuration and connection information.
         2. **Delete**: Removes the account from the app.

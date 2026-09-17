@@ -34,15 +34,26 @@ Het scherm is verdeeld in de volgende secties:
 6. Veegacties (Swipe Actions).
 7. Zwevende Actieknop (FAB).
 
-### Urenstaatfilter Tabbladen
+### Urenstaatfilter Tabbladen & DaySelector
 * **Alles**: Toont alle urenstaat-invoeren.
 * **Actief**: Toont momenteel actieve of lopende urenstaten.
 * **Concept (Draft)**: Toont opgeslagen concepturenstaten die wachten op voltooiing.
+* **DaySelector Snelfilter**: De DaySelector behoudt een specifiek snelfilter **Gisteren** (toepasbaar voor zowel lokale als instantie-accounts), waarmee gebruikers eenvoudig tijdsinvoeren van de vorige dag kunnen bekijken, vastleggen of afronden.
 
 ### Paneel Urenstaatoverzicht
 Toont gegevens in een lijstformaat, met een samenvatting van: Urenstaattitel, Projectnaam, Taakinformatie, Gelogde Uren, Invoerdatum, Toegewezen Gebruiker en Prioriteit.
 
 * **Schone Tekst & Leesbaarheid**: Voorzien van verbeterde beschrijvingsopmaak en intelligente tekstafkapping over meerdere regels met beletseltekens (`...`), waardoor tekst niet buiten kaartgrenzen overloopt en overzichtelijk blijft.
+
+---
+
+## Volledige levenscyclus van urenstaten voor lokale accounts
+
+Lokale accounts ondersteunen nu de complete levenscyclus van urenstaten zonder dat een externe serververbinding nodig is:
+
+* **Volledig lokaal timerbeheer**: Gebruikers kunnen urenstaten lokaal **starten**, **pauzeren**, **opslaan**, **als concept bewaren** en **automatisch voltooien**.
+* **Geen synchronisatiefouten**: Lokale urenstaatbewerkingen worden zuiver uitgevoerd zonder pogingen tot synchronisatie met een externe server of onverwachte netwerkfouten.
+* **Vloeiende statusovergangen**: Net als bij externe accounts doorlopen lokale urenstaten de volledige statuscyclus: van actieve tijdregistratie tot opslaan als concept en definitieve afronding.
 
 ---
 

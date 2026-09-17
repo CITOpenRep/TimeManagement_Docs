@@ -34,10 +34,11 @@ The screen is divided into the following sections:
 6. Swipe Actions.
 7. Floating Action Button (FAB).
 
-### Timesheet Filter Tabs
+### Timesheet Filter Tabs & DaySelector
 * **All**: Displays all timesheet entries.
 * **Active**: Displays currently active or ongoing timesheets.
 * **Draft**: Displays saved draft timesheets awaiting completion.
+* **DaySelector Quick Filter**: The DaySelector retains a dedicated **Yesterday** quick filter (applicable to both Local and instance accounts), allowing users to conveniently review, log, or complete time entries from the previous day.
 
 ### Timesheet Overview Panel
 Displays records in a list format, summarizing: Timesheet Title, Project Name, Task Info, Logged Hours, Entry Date, Assigned User, and Priority.
@@ -45,6 +46,14 @@ Displays records in a list format, summarizing: Timesheet Title, Project Name, T
 * **Cleaner Text & Readability**: Features polished description formatting and intelligent multi-line text truncation with ellipses (`...`), preventing text overflow and ensuring clean card presentation.
 
 ---
+
+## Complete Timesheet Lifecycle for Local Accounts
+
+Local Accounts support the complete, end-to-end timesheet lifecycle without requiring any remote server connection:
+
+* **Full Local Timer Handling**: Users can **start**, **pause**, **save**, **draft**, and **auto-finalize** timesheets locally.
+* **Zero Sync Errors**: Local timesheet actions execute cleanly without triggering remote server synchronization attempts or unexpected sync errors.
+* **Seamless Status Transitions**: Like remote accounts, local timesheets flow smoothly through the full status lifecycle—from active timer tracking to draft saving and final completion.
 
 ## Global Floating Timer Widget
 When a timer is initiated, a redesigned floating timer widget appears at the bottom of the screen to provide persistent, quick-access playback controls.

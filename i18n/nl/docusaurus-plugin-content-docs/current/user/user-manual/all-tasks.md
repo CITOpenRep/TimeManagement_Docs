@@ -35,14 +35,21 @@ Het Takenscherm is verdeeld in twee hoofdsecties:
 
 ---
 
-### Paneel Takenoverzicht
-Elke taakkaart biedt een snelle samenvatting, waaronder: Taaknaam, Gerelateerde Projectnaam, Taakfase, Prioriteitsindicator, Geplande Uren, Startdatum, Einddatum en Achterstallige Status.
+### Paneel Takenoverzicht (Bijgewerkte Taakkaart-UI)
+Het takenoverzichtsscherm toont werkitems in een overzichtelijke, tweekoloms kaartlay-out ontworpen voor snelle verwerking en directe navigatie naar subtaken:
 
-**Voorbeeld van Taakfasen:** Analyse, Ontwerp, Ontwikkeling, Testen, Voltooid.
-
-**Achterstallig-indicator:** Als een taak de geplande einddatum overschrijdt en niet is voltooid, geeft het systeem een rood **Achterstallig** (Overdue) label weer.
-
-**Datumtabbladen:** Taken kunnen worden gefilterd met behulp van snelle datumcategorieën (Vandaag, Deze Week, Deze Maand, Later, Voltooid, Alles).
+* **Periodefilter Tabbladen**: Snelle filtering op datumcategorieën: **Vandaag**, **Deze Week**, **Deze Maand** en **Later**.
+* **Lay-out van de Taakkaart**:
+  * **Linkerzijde**:
+    * **Taaktitel**: Duidelijk weergegeven titel van het werkitem.
+    * **Gerelateerde projectnaam**: Heldere vermelding van het hoofdproject of subproject.
+    * **Prioriteitssterren**: Een visuele beoordeling met 3 sterren  die de urgentie en het belang van de taak aangeeft.
+    * **Werkstroomfasebadge (Stage Pill)**: Een gekleurde, afgeronde badge met de huidige fase (bijv. `Analyse`, `Gereed`, `Review`).
+    * **Subtaken Doorklikknop**: Voor taken met subtaken toont een interactieve knop (`Subtasks (N) >`) het aantal subtaken en biedt deze met één tik toegang tot onderliggende items.
+  * **Rechterzijde**:
+    * **Geplande uren**: Geschatte inspanning (`Planned (H): N/A` of ingeplande tijd).
+    * **Startdatum & Einddatum**: Geplande tijdspanne (`Start Date: JJJJ-MM-DD`, `End Date: JJJJ-MM-DD`).
+    * **Indicator voor achterstallige duur**: Opvallende rode tekst met de exacte achterstallige periode (bijv. `312 days overdue`, `55 days overdue`) wanneer de geplande deadline is verstreken.
 
 ---
 
@@ -62,15 +69,18 @@ Om een taak aan te maken:
 4. Klik op de **Opslaan-knop**.
 
 ### Velden voor het Aanmaken van een Taak
-* **Account**: Bepaalt de verbonden account/omgeving.
+* **Account**: Bepaalt de verbonden omgeving (Externe instantie of Lokaal).
 * **Project & Subproject**: Koppelt de taak aan specifieke operationele projecten.
 * **Hoofdtaak (Parent Task)**: Wordt gebruikt om subtaken onder een grotere taak aan te maken om de workflow te verbeteren.
 * **Toegewezen aan (Assignees)**: Bepaalt de verantwoordelijke gebruikers. U kunt meerdere gebruikers uit de lijst selecteren en het kruisje gebruiken om de selectie ongedaan te maken.
 * **Taaknaam**: De primaire, beschrijvende titel van het werkitem.
-* **Prioriteit**: Belangrijkheidsniveau weergegeven door een sterrenbeoordelingssysteem 
-* **Beginfase (Initial Stage)**: Huidige workflowfase (Analyse, Ontwerp, enz.).
-* **Beschrijving**: Gedetailleerde informatie, doelstellingen en omvang van het werk.
+* **Prioriteit**: Belangrijkheidsniveau weergegeven door een sterrenbeoordelingssysteem met 3 sterren.
+* **Beginfase (Initial Stage)**: Huidige workflowfase (Analyse, Ontwerp, Ontwikkeling, Testen, Review, Gereed).
+* **Beschrijving**: Gedetailleerde informatie, doelstellingen en omvang van het werk. Ondersteunt spraakdictatie.
 * **Geplande Uren**: Geschatte benodigde tijd (bijv. `01:00` = 1 uur).
+
+### Geconfigureerde standaard taakfasen
+Voor **Lokale accounts** worden standaard globale taakfasen (waaronder *Analyse*, *Ontwerp*, *Ontwikkeling*, *Testen*, *Review* en *Gereed*) automatisch geconfigureerd en gekoppeld. Bij het aanmaken van taken onder een lokaal account blijven de fasen direct behouden en worden ze correct weergegeven op de taakkaarten zonder dat synchronisatie met een server nodig is.
 
 ### Sectie Geplande Datums
 * **Datumbereik**: Snelle planningsvoorinstellingen (Vandaag, Deze Week, Aangepast Bereik).

@@ -24,3 +24,12 @@ The following options are available in the Kebab Menu:
 * Project Updates
 * About Us
 * Settings
+
+---
+
+## Global Quick Toggle & Header Controls
+
+In addition to menu navigation, the menu and drawer header includes synchronized account controls:
+
+* **Synchronized Local Account Toggle**: A quick toggle switch located directly in the drawer and menu headers next to the account badge. This enables instant switching between Local Account mode and active remote/instance accounts.
+* **Safety Switch Guards**: Built-in guards prevent accidental switching when no remote or instance account session is configured or currently logged in, ensuring you stay safely within your local environment.

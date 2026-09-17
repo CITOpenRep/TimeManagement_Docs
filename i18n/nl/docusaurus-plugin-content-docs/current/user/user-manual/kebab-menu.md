@@ -24,3 +24,12 @@ De volgende opties zijn beschikbaar in het Kebab-menu:
 * Projectupdates
 * Over Ons
 * Instellingen
+
+---
+
+## Globale snelschakelaar & kopbediening
+
+Naast menunavigatie bevat de kop van het menu en de drawer gesynchroniseerde accountbedieningselementen:
+
+* **Gesynchroniseerde lokale account-schakelaar**: Een snelschakelaar direct in de kop van het menu en de lade naast de badge. Hiermee schakelt u direct tussen de lokale accountmodus en actieve externe/instantie-accounts.
+* **Beveiliging tegen per ongeluk schakelen**: Ingebouwde beveiligingen voorkomen per ongeluk omschakelen wanneer er geen externe of instantie-accountsessie is geconfigureerd of aangemeld, zodat u veilig in uw lokale omgeving blijft.

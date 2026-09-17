@@ -19,10 +19,11 @@ This screen enables users to:
 ## Dashboard Overview
 The Dashboard consists of the following key sections:
 1. Header (Top Bar)
-2. Unsaved Drafts Alert 
-3. Priority Matrix
-4. Navigation Tabs (Overview, Projects, Tasks) 
-5. Quick Action Button
+2. Collapsible Navigation Sidebar (Desktop)
+3. Unsaved Drafts Alert 
+4. Priority Matrix
+5. Navigation Tabs (Overview, Projects, Tasks) 
+6. Quick Action Button
 
 ---
 
@@ -36,6 +37,20 @@ Located at the top of the screen.
 * **Add Icon (Clock with +):** Used to quickly create a new timesheet entry.
 * **Notification Icon:** Displays alerts and updates.
 * **Info Icon:** Provides additional information about the dashboard chart guid
+
+---
+
+## Collapsible Navigation Sidebar
+
+For convergent desktop layouts, the application provides an adaptive **Collapsible Navigation Sidebar**:
+
+* **Convergent Desktop Support**: Seamlessly optimizes larger screens, providing persistent navigation across all primary application views (Dashboard, Timesheets, Activities, My Tasks, All Tasks, Projects, Project Updates, About Us, Settings).
+* **Compact 8 GU Mode**: The sidebar features a compact **8 GU (Grid Unit)** mode that collapses into an icon-only navigation rail. This preserves valuable screen real estate for split views, task lists, and dashboard analytics while keeping every module a single tap away.
+* **Direct Header & Footer Controls**:
+  * **Top Toggle (`≡`)**: Quickly expand or collapse the sidebar between full and compact modes.
+  * **Account Switching**: The bottom of the compact rail includes a dedicated user icon for quick account switching.
+  * **Local Toggle Switch**: Directly toggle Local Account mode on or off from the sidebar footer.
+  * **Theme Controls**: A sun/moon icon allows instant toggling between light and dark themes without navigating into Settings.
 
 ---
 
@@ -106,6 +121,14 @@ Tapping on a specific project in the list navigates to a detailed view for that 
 * A specific bar chart breaking down time spent by individual tasks within that project.
 * A list of individual tasks showing their percentage of project time, total hours, and a navigation arrow for further details.
 
+---
+
+## Dashboard Analytics & Local Account Support
+
+The dashboard analytics engine provides native support for **Local Accounts**:
+
+* **Local Data Aggregation**: All dashboard charts—including the Priority Matrix time allocations, the Donut Chart (most time-consuming projects), project-wise bar charts, and task breakdown statistics—accurately aggregate and compute metrics directly from local SQLite storage.
+* **Offline Independence**: Metrics and analytics for Local Accounts update in real time without requiring an active remote server connection or background sync pass.
 
 ---
 

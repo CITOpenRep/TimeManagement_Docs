@@ -58,16 +58,15 @@ Tabbladen voor snelle toegang om taken te organiseren op basis van tijdlijn en v
 
 ---
 
-### Paneel Mijn Taken Overzicht
-Toont alle toegewezen taakkaarten in een gestructureerd lijstformaat. Elke kaart bevat: Taaknaam, Gerelateerde Projectnaam, Taakfase, Prioriteitsbeoordeling, Geplande Uren, Startdatum, Einddatum en Achterstallige Status.
+### Paneel Mijn Taken Overzicht (Bijgewerkte Kaartlay-out)
+Toont toegewezen taakkaarten in een gestructureerde, overzichtelijke lay-out:
 
-* **Prioriteitsindicator**: Weergegeven met sterrenbeoordelingen.
-* **Achterstallig-indicator**: Toont de achterstallige duur in het rood als de taak de geplande einddatum overschrijdt.
-
----
-
-### Weergave Taakinformatie
-Elk taakitem biedt planningsinformatie (Geplande Uren, Startdatum, Einddatum, Fasenaam) om gebruikers te helpen deadlines bij te houden en het bewustzijn van de planning te verbeteren.
+* **Taakidentificatie**: Duidelijke weergave van de taaktitel en de gekoppelde projectnaam.
+* **Prioriteitssterren**: Een visuele beoordeling met 3 sterren om prioriteit in één oogopslag te tonen.
+* **Fasebadge (Stage Pill)**: Een afgeronde badge met de workflowfase van de taak (bijv. `Analyse`, `Gereed`, `Review`). Standaard globale taakfasen blijven behouden en worden direct weergegeven voor lokale accounts.
+* **Navigatie naar Subtaken**: Taken met subtaken bevatten een interactieve knop `Subtasks (N) >` voor snelle toegang tot onderliggende werkitems.
+* **Tijdlijndetails**: Toont Geplande Uren (`Planned (H): N/A` of uren), Startdatum en Einddatum.
+* **Achterstallige Duur**: Als een taak achterstallig is, wordt de exacte achterstallige periode opvallend in rode tekst weergegeven (bijv. `312 days overdue`).
 
 ---
 

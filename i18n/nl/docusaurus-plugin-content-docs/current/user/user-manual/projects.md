@@ -47,16 +47,28 @@ Bevindt zich bovenaan het Projectenscherm.
 
 ---
 
-### Paneel Projectenlijst
-Het linkerpaneel toont alle beschikbare projecten.
+### Paneel Projectenlijst (Bijgewerkte Overzichts-UI)
+Het projectenoverzichtspaneel toont alle beschikbare projecten in een gemoderniseerde kaartlay-out.
 
-Elk projectitem biedt een snelle samenvatting, waaronder: Projectnaam, Instantienaam, Huidige Status, Geplande Uren, Startdatum, Einddatum en Achterstallig-indicator (indien van toepassing).
+Elke projectkaart toont:
+* **Ster-icoon**: Tik om projecten als favoriet te markeren voor snellere toegang.
+* **Projectnaam**: De primaire titel van het project.
+* **Instantie- / Accountbadge**: Identificeert het bijbehorende account (bijv. `CIT` of `Lokaal`).
+* **Indicator voor achterstallige duur**: Markeert achterstallige projecten met een rode indicator en het exacte aantal dagen.
+* **Geaggregeerd aantal taken**: Toont het totale aantal gekoppelde taken (bijv. `10 taken`, `120 taken`).
+* **Subprojectenaantal & indicator**: Geeft voor hoofdprojecten geneste subprojecten aan (bijv. `1 subproject >`).
+* **Voorbeeld van beschrijving**: Een kort voorbeeldsnippet van de projectbeschrijving.
+* **Statusbadge (Stage Pill)**: Een afgeronde badge die de huidige werkstroomstatus aangeeft (bijv. `Te Doen`, `In Uitvoering`, `Voltooid`).
 
-**Voorbeeldstatussen:** Te Doen (To Do), In Uitvoering (In Progress), Voltooid (Completed), In de Wacht (On Hold).
+---
 
-**Aanvullende Indicatoren:**
-* **Ster-icoon**: Markeert favoriete of belangrijke projecten.
-* **Achterstallig Label**: Markeert projecten die hun geplande voltooiingsdatum hebben overschreden.
+### Projecthiërarchie & Kruimelpadnavigatie (Breadcrumbs)
+De applicatie biedt volledige ondersteuning voor het in kaart brengen van de projecthiërarchie en geneste subprojecten:
+
+* **Kruimelpadbalk (Breadcrumb Trail)**: Bij het doorklikken naar een hoofdproject verschijnt een speciale navigatiebalk met:
+  * **[< Terug] Knop**: Keer snel terug naar het niveau van het hoofdproject of het algemene overzicht.
+  * **Kruimelpad**: Duidelijke padweergave (bijv. `Projecten / Test Project 2 [Parent] (1)`), inclusief een tellersbadge met het aantal onderliggende subprojecten.
+* **Hiërarchische taaktellingsberekeningen**: Taakaantallen worden dynamisch berekend en geaggregeerd voor zowel hoofdprojecten als geneste subprojecten in zowel externe als lokale accounts.
 
 ---
 
@@ -75,13 +87,16 @@ Om een project aan te maken:
 Het project zal vervolgens in de Projectenlijst verschijnen.
 
 ### Velden voor Projectaanmaak
-* **Account**: Bepaalt tot welke verbonden account of omgeving het project behoort, om ervoor te zorgen dat gegevens op de juiste server worden opgeslagen. Toont de momenteel actieve account en kan worden gewijzigd via een dropdown-menu.
-* **Hoofdproject (Parent Project)**: Wordt gebruikt om subprojecten onder een groter project aan te maken om hiërarchie en structuur te verbeteren (bijv. Websitemigratie -> UI Ontwerp).
-* **Toegewezen aan (Assignee)**: Bepaalt de gebruiker die verantwoordelijk is voor het project, waardoor eigenaarschap wordt verduidelijkt.
+* **Account**: Bepaalt tot welke verbonden omgeving het project behoort (Externe instantie of Lokaal).
+* **Hoofdproject (Parent Project)**: Selecteer een hoofdproject om werk te structureren in subprojecten en een duidelijke hiërarchie vast te leggen.
+* **Toegewezen aan (Assignee - Lokale accountfiltering)**: Bepaalt de gebruiker die verantwoordelijk is voor het project. Wanneer een **Lokaal** account is geselecteerd, filtert het dropdownmenu strikt en toont het alleen **Lokale gebruiker** (Local User) naast de standaardkeuze "Selecteer toegewezene", waardoor ongeldige toewijzingen in lokale modus worden voorkomen.
 * **Projectnaam**: De primaire titel van het project (bijv. Mobiele App Ontwikkeling, Website Herontwerp).
-* **Beschrijving**: Gedetailleerde informatie inclusief doelstellingen, omvang van het werk en verwachte resultaten.
+* **Beschrijving**: Gedetailleerde informatie inclusief doelstellingen, omvang van het werk en verwachte resultaten. Ondersteunt spraakdictatie en tekstuitbreiding.
 * **Toegewezen Uren**: Geschatte tijd gepland voor het project (bijv. `01:00` = 1 uur) om te helpen bij werkdrukplanning.
 * **Kleurindicator**: Maakt het mogelijk om een kleur toe te wijzen om projecten gemakkelijker te identificeren.
+
+### Geconfigureerde standaard projectfasen
+Voor **Lokale accounts** worden standaard projectfasen (bijv. *Te Doen*, *In Uitvoering*, *Gereed*, *Geannuleerd*) automatisch geconfigureerd en toegewezen. Nieuw aangemaakte lokale projecten blijven direct behouden en tonen hun geldige fasebadge zonder handmatige configuratie of externe synchronisatie.
 
 ### Sectie Geplande Datums
 Bepaalt de verwachte projecttijdlijn.

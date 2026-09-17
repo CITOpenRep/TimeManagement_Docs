@@ -59,16 +59,15 @@ Quick-access tabs to organize tasks based on timeline and completion status.
 
 ---
 
-### My Tasks Overview Panel
-Displays all assigned task cards in a structured list format. Each card includes: Task Name, Related Project Name, Task Stage, Priority Rating, Planned Hours, Start Date, End Date, and Overdue Status.
+### My Tasks Overview Panel (Updated Card Layout)
+Displays assigned task cards in a structured, high-density layout:
 
-* **Priority Indicator**: Represented using star ratings 
-* **Overdue Indicator**: Displays the overdue duration in red if the task exceeds its planned end date.
-
----
-
-### Task Information Display
-Each task item provides scheduling information (Planned Hours, Start Date, End Date, Stage Name) to help users track deadlines and improve schedule awareness.
+* **Task Identification**: Clear display of the Task Title and associated Project Name.
+* **Priority Star Rating**: A 3-star rating displaying priority at a glance.
+* **Stage Pill**: Rounded badge showing the task workflow stage (e.g., `Analysis`, `Done`, `Review`). Default global task stages persist and display immediately for Local Accounts.
+* **Subtasks Navigation**: Tasks with subtasks feature an interactive `Subtasks (N) >` button for quick access to child work items.
+* **Timeline Details**: Shows Planned Hours (`Planned (H): N/A` or hours), Start Date, and End Date.
+* **Overdue Duration**: If a task is overdue, the exact overdue duration is prominently displayed in red text (e.g., `312 days overdue`).
 
 ---
 

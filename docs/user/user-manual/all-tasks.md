@@ -35,14 +35,21 @@ The Tasks screen is divided into two main sections:
 
 ---
 
-### Tasks Overview Panel
-Each task card provides a quick summary including: Task Name, Related Project Name, Task Stage, Priority Indicator, Planned Hours, Start Date, End Date, and Overdue Status.
+### Tasks Overview Panel (Updated Task Card UI)
+The Tasks overview screen displays work items in a clean, high-density two-column card layout designed for fast scanning and subtask navigation:
 
-**Example Task Stages:** Analysis, Design, Development, Testing, Completed.
-
-**Overdue Indicator:** If a task exceeds its planned end date and is not completed, the system displays an **Overdue** label in red.
-
-**Date Tabs:** Tasks can be filtered using quick date categories (Today, This Week, This Month, Later, Done, All).
+* **Period Filter Tabs**: Quick filtering by date categories: **Today**, **This Week**, **This Month**, and **Later**.
+* **Task Card Layout**:
+  * **Left Side**:
+    * **Task Title**: Prominently displayed title of the work item.
+    * **Related Project Name**: Clear attribution to the parent project or subproject.
+    * **Priority Star Rating**: A 3-star visual rating reflecting task urgency and importance.
+    * **Workflow Stage Pill**: Color-coded rounded badge displaying the current stage (e.g., `Analysis`, `Done`, `Review`).
+    * **Subtasks Drill-down Button**: For tasks containing subtasks, an interactive button (`Subtasks (N) >`) shows the subtask count and provides one-tap navigation directly to child items.
+  * **Right Side**:
+    * **Planned Hours**: Estimated effort (`Planned (H): N/A` or allocated time).
+    * **Start Date & End Date**: Scheduled timeframe (`Start Date: YYYY-MM-DD`, `End Date: YYYY-MM-DD`).
+    * **Overdue Indicator**: Prominent red text displaying exact overdue duration (e.g., `312 days overdue`, `55 days overdue`) when past the planned deadline.
 
 ---
 
@@ -62,15 +69,18 @@ To create a task:
 4. Click the **Save Button**.
 
 ### Task Creation Fields
-* **Account**: Defines the connected account/environment.
+* **Account**: Defines the connected account/environment (Remote Instance or Local).
 * **Project & Subproject**: Associates the task with specific operational projects.
 * **Parent Task**: Used to create child tasks under a larger task to improve workflow.
 * **Assignees**: Defines the users responsible. You can select multiple users from the list and use the cross icon to unselect.
 * **Task Name**: The primary, descriptive title of the work item.
-* **Priority**: Importance level represented by a star rating system 
-* **Initial Stage**: Current workflow stage (Analysis, Design, etc.).
-* **Description**: Detailed information, objectives, and scope of work.
+* **Priority**: Importance level represented by a 3-star rating system.
+* **Initial Stage**: Current workflow stage (Analysis, Design, Development, Testing, Review, Done).
+* **Description**: Detailed information, objectives, and scope of work. Supports speech dictation.
 * **Planned Hours**: Estimated time required (e.g., `01:00` = 1 Hour).
+
+### Configured Default Global Task Stages
+For **Local Accounts**, default global task stages (including *Analysis*, *Design*, *Development*, *Testing*, *Review*, and *Done*) are preconfigured and mapped automatically. When creating tasks under a Local Account, stages persist immediately and display accurately on task cards without needing server synchronization.
 
 ### Planned Dates Section
 * **Date Range**: Quick scheduling presets (Today, This Week, Custom Range).

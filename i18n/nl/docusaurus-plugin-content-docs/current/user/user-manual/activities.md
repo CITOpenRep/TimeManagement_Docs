@@ -34,6 +34,12 @@ Het scherm is verdeeld in de volgende secties:
 
 ---
 
+### Activiteiten inplannen met DaySelector
+* **Snelfilter "Morgen"**: De DaySelector bevat een specifiek snelfilter **Morgen** voor activiteiten, waarmee gebruikers eenvoudig taken en afspraken kunnen bekijken en inplannen voor de volgende werkdag.
+* **Standaard bereiken**: Schakel snel tussen **Vandaag**, **Deze Week**, **Deze Maand**, **Later**, **Achterstallig**, **Alles** en **Voltooid**.
+
+---
+
 ### Paneel Activiteitenoverzicht
 Geeft alle activiteiten weer in een lijstformaat. Elke kaart vat de Activiteitsnaam, Notities, Toegewezen Gebruiker, Activiteitstype, Geplande Datum en Achterstallige Status samen.
 
@@ -48,10 +54,11 @@ Geeft alle activiteiten weer in een lijstformaat. Elke kaart vat de Activiteitsn
 3. Klik op de **Opslaan-knop**.
 
 ### Velden voor het Aanmaken van Activiteiten
-* **Account**: De verbonden omgeving.
+* **Account**: De verbonden omgeving (Extern of Lokaal).
+* **Ondersteuning voor lokale modus**: Het aanmaken van activiteiten wordt volledig ondersteund voor lokale accounts. Activiteitstypes en toegewezen gebruikers worden lokaal opgelost en gefilterd, waardoor activiteiten compleet lokaal kunnen worden beheerd zonder serververbinding.
 * **Project & Subproject**: Koppel aan een specifiek project om tracering mogelijk te maken.
 * **Taak & Subtaak**: Associeer met specifieke werkitems.
-* **Toegewezen aan** (Assignee): De gebruiker die verantwoordelijk is voor de activiteit.
+* **Toegewezen aan** (Assignee): De gebruiker die verantwoordelijk is voor de activiteit (passend gefilterd op basis van het gekozen account).
 * **Gekoppeld Aan**: Bepaalt of de activiteit is gekoppeld aan een Project of een Taak.
 * **Samenvatting**: Primaire titel (bijv. Klantgesprek, Follow-up Bellen).
 * **Notities**: Bespreekpunten, resultaten, herinneringen, follow-up acties.

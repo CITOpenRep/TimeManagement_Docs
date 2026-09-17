@@ -48,16 +48,28 @@ Located at the top of the Projects screen.
 
 ---
 
-### Projects List Panel
-The left-side panel displays all available projects.
+### Projects List Panel (Updated Overview UI)
+The Projects overview panel displays all available projects in an updated, modern card layout.
 
-Each project item provides a quick summary including: Project Name, Instance Name, Current Status, Planned Hours, Start Date, End Date, and Overdue Indicator (if applicable).
+Each project card displays:
+* **Star Icon**: Tap to mark projects as favorites for faster access.
+* **Project Name**: The primary project title.
+* **Instance / Account Badge**: Identifies the associated account (e.g., `CIT` or `Local`).
+* **Overdue Duration Indicator**: Highlights overdue projects with a red indicator and exact day count
+* **Aggregated Task Count**: Displays the total count of associated tasks (e.g., `10 tasks`, `120 tasks`).
+* **Subproject Count & Indicator**: For parent projects, indicates nested subprojects (e.g., `1 subproject >`).
+* **Description Preview**: Short preview snippet of the project description.
+* **Stage Pill**: Rounded badge indicating the current workflow status (e.g., `To Do`, `In Progress`, `Completed`).
 
-**Example Statuses:** To Do, In Progress, Completed, On Hold.
+---
 
-**Additional Indicators:**
-* **Star Icon**: Marks favorite or important projects.
-* **Overdue Label**: Highlights projects that exceeded their planned completion date.
+### Project Hierarchy & Breadcrumb Navigation
+The application provides full support for project hierarchy mapping and nested subprojects:
+
+* **Breadcrumb Trail**: When drilling down into a parent project, a dedicated navigation bar appears showing:
+  * **[< Back] Button**: Quickly return to the parent project level or top-level overview.
+  * **Breadcrumb Path**: Clear path indication (e.g., `Projects / Test Project 2 [Parent] (1)`), including a count badge showing the number of child subprojects.
+* **Hierarchical Task Count Calculations**: Task counts are dynamically calculated and aggregated for both top-level parent projects and nested subprojects in both remote and Local accounts.
 
 ---
 
@@ -76,13 +88,16 @@ To create a project:
 The project will then appear in the Projects List.
 
 ### Project Creation Fields
-* **Account**: Defines which connected account or environment the project belongs to, ensuring data is stored in the correct server. Displays the currently active account and can be changed via dropdown.
-* **Parent Project**: Used to create sub-projects under a larger project to improve hierarchy and structure (e.g., Website Migration -> UI Design).
-* **Assignee**: Defines the user responsible for the project, clarifying ownership.
+* **Account**: Defines which connected account or environment the project belongs to (Remote Instance or Local).
+* **Parent Project**: Select a parent project to structure work into subprojects and establish clear hierarchy.
+* **Assignee (Local Account Filtering)**: Defines the user responsible for the project. When **Local** account is selected, the Assignee dropdown strictly filters and lists only **Local User** (along with the default "Select Assignee"), preventing invalid remote user assignments in local mode.
 * **Project Name**: The primary title of the project (e.g., Mobile App Development, Website Redesign).
-* **Description**: Detailed information including objectives, scope of work, and expected outcomes.
+* **Description**: Detailed information including objectives, scope of work, and expected outcomes. Supports voice input dictation and text expansion.
 * **Allocated Hours**: Estimated time planned for the project (e.g., `01:00` = 1 Hour) to help with workload planning.
 * **Color Indicator**: Allows assigning a color to make projects easier to identify.
+
+### Configured Default Project Stages
+For **Local Accounts**, default project stages (e.g., *To Do*, *In Progress*, *Done*, *Cancelled*) are automatically configured and mapped. Newly created local projects immediately persist and display their valid stage badges without requiring manual setup or remote synchronization.
 
 ### Planned Dates Section
 Defines the expected project timeline.
