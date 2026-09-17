@@ -18,6 +18,7 @@ This page migrates the current repository PR guidance into the site.
 ### Code quality
 
 - code should pass the relevant app build and review steps
+- pass local pre-commit linting checks (see [CI & Git Pre-commit Hooks](./ci-and-git-hooks.md))
 - no hardcoded credentials, URLs, or API keys
 - no debug logging left in production code
 - follow existing code style and conventions
@@ -27,6 +28,7 @@ This page migrates the current repository PR guidance into the site.
 - test on desktop with `clickable desktop`
 - test on device when possible with `clickable install`
 - for CLI-oriented Python changes, verify with `python3 -m py_compile <file>`
+- ensure all GitHub Actions Continuous Integration (CI) checks pass on your PR
 
 ### Documentation
 

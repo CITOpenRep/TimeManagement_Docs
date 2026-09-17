@@ -18,6 +18,7 @@ Deze pagina migreert de huidige PR-richtlijnen voor de repository naar de site.
 ### Codekwaliteit
 
 - code moet de relevante stappen voor het bouwen en beoordelen van apps doorstaan
+- slaag voor lokale pre-commit lintingcontroles (zie [CI & Git pre-commit hooks](./ci-and-git-hooks.md))
 - geen hardgecodeerde inloggegevens, URL's of API-sleutels
 - er is geen foutopsporingsregistratie meer in de productiecode
 - volg de bestaande codestijl en conventies
@@ -27,6 +28,7 @@ Deze pagina migreert de huidige PR-richtlijnen voor de repository naar de site.
 - testen op desktop met `clickable desktop`
 - test indien mogelijk op apparaat met `clickable install`
 - voor CLI-georiënteerde Python-wijzigingen verifieer je met `python3 -m py_compile <file>`
+- zorg ervoor dat alle GitHub Actions Continue Integratie (CI)-controles slagen voor uw PR
 
 ### Documentatie
 

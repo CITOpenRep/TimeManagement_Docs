@@ -67,6 +67,7 @@ const sidebars = {
       items: [
         "contributing/getting-started",
         "contributing/pull-request-guidelines",
+        "contributing/ci-and-git-hooks",
         "contributing/documentation-governance",
         "contributing/app-translation-guide"
       ]
