@@ -105,7 +105,7 @@ To add or modify documentation specifically for version `1.2.9`:
 When preparing a new major/minor software release (e.g., `1.3.0`), freeze the current state of documentation:
 1. Run the versioning command:
    ```bash
-   npx docusaurus docs:version 1.3.0
+   npm run docs:version 1.3.0
    ```
 
 ---

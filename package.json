@@ -7,7 +7,8 @@
     "dev": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "clear": "docusaurus clear",
+    "docs:version": "node scripts/version-docs.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
