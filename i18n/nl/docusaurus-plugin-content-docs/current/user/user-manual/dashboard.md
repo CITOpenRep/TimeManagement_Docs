@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 sidebar_label: Dashboard
-description: Een overzicht van het Time Management App Dashboard, inclusief de Prioriteitenmatrix, tijdverdelingsgrafieken, de inklapbare navigatie-zijbalk en snelle navigatie voor projecten en taken.
+description: Een overzicht van het Time Management App Dashboard, inclusief de Prioriteitenmatrix, tijdverdelingsgrafieken, filters voor medewerkers en datumbereik, en snelle navigatie voor projecten en taken.
 ---
 
 # Dashboard
@@ -32,8 +32,9 @@ Bevindt zich bovenaan het scherm.
 
 ### Functies:
 * **Menu-icoon:** Opent het navigatiemenu.
-* **Accountnaam / Titel:** Toont "Dashboard" en het momenteel actieve datumbereikfilter (bijv. "Deze Maand").
+* **Accountnaam / Titel:** Toont "Dashboard", het actieve datumbereik en de geselecteerde medewerker(s) (bijv. "Deze Maand • [Naam Medewerker]").
 * **Filtericoon (Schuifregelaars):** Opent het dropdownmenu voor het datumbereikfilter om de tijdsperiode van de weergegeven gegevens aan te passen.
+* **Medewerkersfilter-icoon (Contactpersoon / Gebruiker):** Opent het pop-upmenu Filter op medewerker om uren en taken van specifieke teamleden of het hele team te bekijken en te filteren.
 * **Toevoegen-icoon (Klok met +):** Wordt gebruikt om snel een nieuwe urenstaat-invoer aan te maken.
 * **Meldingsicoon:** Toont waarschuwingen en updates.
 * **Info-icoon:** Biedt aanvullende informatie over de grafiekgids van het dashboard.
@@ -67,6 +68,60 @@ Een filterfunctie waarmee gebruikers de tijdsperiode kunnen bepalen voor de gege
     * Dit Jaar
     * Aangepast Bereik...
 * **Aangepast datumbereik:** Het selecteren van "Aangepast Bereik..." opent een speciaal dialoogvenster. Gebruikers kunnen een exacte tijdsperiode opgeven door een **Van:** datum en een **Tot:** datum te selecteren via de datumkiezers. Klikken op **Bereik Toepassen** werkt het dashboard bij naar deze aangepaste periode, terwijl **Annuleren** het dialoogvenster sluit zonder wijzigingen.
+
+---
+
+## Dashboard filteren op medewerker
+
+### Wat is deze functie?
+Als u een team of projecten beheert, kunt u met de functie **Filteren op medewerker** uw dashboardweergave aanpassen. In plaats van alleen uw eigen uren te zien, kunt u het volgende bekijken:
+* Hoeveel uren een specifiek teamlid heeft gewerkt.
+* Het gecombineerde werk van meerdere geselecteerde teamleden.
+* Het totale werk uitgevoerd door het hele team.
+
+:::note
+Als u geen project of team beheert, toont uw dashboard gewoon zoals gebruikelijk uw eigen persoonlijke werk, zodat het overzichtelijk en netjes blijft.
+:::
+
+### Stapsgewijze handleiding: Hoe te gebruiken
+
+#### 1. Wat u ziet wanneer u het dashboard voor het eerst opent
+Wanneer u uw dashboard opent, begint het altijd met het tonen van uw eigen persoonlijke uren en taken. Onder de kop "Dashboard" bovenaan ziet u uw naam en het datumbereik (bijvoorbeeld: `Deze Maand • [Naam Medewerker]`).
+
+#### 2. Het medewerkersfilter openen
+* Kijk rechtsboven in de kopsectie van uw dashboard.
+* Tik op het **Filter-icoon** (ziet eruit als een contactpersoon-/gebruikersicoon).
+* Er verschijnt een pop-upmenu met:
+  * Een **Zoekbalk** bovenaan.
+  * Een optie **"Alle gebruikers"** ("All Users").
+  * Een lijst van uw teamleden met hun namen en e-mailadressen.
+
+#### 3. Kiezen wat u wilt bekijken
+* **Het werk van één persoon bekijken:** Tik op de naam of het selectievakje van die persoon.
+* **Meerdere personen samen bekijken:** Tik op elke persoon die u wilt opnemen. Onderaan de pop-up ziet u hoeveel personen u hebt geselecteerd (bijvoorbeeld: *"2 werknemers geselecteerd"*).
+* **Snel iemand vinden in een lange lijst:** Typ de naam of het e-mailadres in de zoekbalk. De lijst filtert direct terwijl u typt.
+* **Het gecombineerde werk van het hele team bekijken:** Tik op **"Alle gebruikers"** ("All Users"). (Als u dit selecteert, worden afzonderlijke namen automatisch uitgevinkt).
+
+#### 4. Uw selectie toepassen
+* Tik op de knop **"Filter toepassen"** ("Apply Filter") onderaan de pop-up.
+* De pop-up sluit en uw hele dashboard wordt automatisch vernieuwd:
+  * De prioriteitsvakken (Eisenhower-matrix) worden bijgewerkt met de uren geregistreerd door de geselecteerde persoon/personen.
+  * De projectgrafieken en specificatielijsten tonen alleen hun werk.
+  * De subtitel in de kopsectie wordt bijgewerkt om uw keuze weer te geven (bijv. `Deze Maand • 2 Werknemers`).
+
+#### 5. Terugzetten naar het teamoverzicht
+* Open het filtermenu en tik op **"Filter wissen"** ("Clear Filter") (of selecteer **"Alle gebruikers"** en tik op **"Filter toepassen"**).
+* Uw dashboard wordt bijgewerkt om de gecombineerde uren van iedereen in het team weer te geven.
+
+### Snel overzicht van de opties
+
+| Wat u wilt doen | Hoe u dit doet | Wat de koptekst toont |
+|---|---|---|
+| **Uw eigen werk controleren** | Schakel in de lijst terug naar uw eigen naam. | `Deze Maand • [Uw Naam]` |
+| **Het werk van één collega bekijken** | Selecteer hun naam &rarr; Tik op **Filter toepassen**. | `Deze Maand • [Naam Collega]` |
+| **Een klein subteam bekijken** | Selecteer 2 of meer namen &rarr; Tik op **Filter toepassen**. | `Deze Maand • 3 Werknemers` |
+| **Totalen van het hele team bekijken** | Tik op **Filter wissen** (of selecteer **Alle gebruikers**). | `Deze Maand • Alle Gebruikers` |
+| **Sluiten zonder wijzigingen** | Tik ergens buiten het pop-upvenster. | Ongewijzigd |
 
 ---
 
