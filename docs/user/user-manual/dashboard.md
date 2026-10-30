@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 sidebar_label: Dashboard
-description: An overview of the Time Management App Dashboard, featuring the Priority Matrix, time distribution charts, and quick navigation for projects and tasks.
+description: An overview of the Time Management App Dashboard, featuring the Priority Matrix, time distribution charts, employee and date range filtering, and quick navigation for projects and tasks.
 ---
 
 # Dashboard
@@ -32,11 +32,12 @@ Located at the top of the screen.
 
 ### Features:
 * **Menu Icon:** Opens the side navigation menu.
-* **Account Name / Title:** Displays "Dashboard" and the currently active date range filter (e.g., "This Month").
+* **Account Name / Title:** Displays "Dashboard", the active date range, and the selected employee(s) (e.g., "Current Month • Parvathy Nair").
 * **Filter Icon (Sliders):** Opens the Date Range filter dropdown to adjust the time period of the displayed data.
+* **Filter by Employee Icon (Contact / Person):** Opens the Filter by Employee popup to customize the dashboard view by individual or multiple team members.
 * **Add Icon (Clock with +):** Used to quickly create a new timesheet entry.
 * **Notification Icon:** Displays alerts and updates.
-* **Info Icon:** Provides additional information about the dashboard chart guid
+* **Info Icon:** Provides additional information about the dashboard charts.
 
 ---
 
@@ -67,6 +68,60 @@ A new filtering feature allows users to control the time period for the data dis
     * This Year
     * Custom Range...
 * **Custom Date Range:** Selecting "Custom Range..." opens a dedicated dialog box. Users can specify an exact time period by selecting a **From:** date and a **To:** date using the date pickers. Clicking **Apply Range** updates the dashboard to reflect this custom period, while clicking **Cancel** dismisses the dialog without making changes.
+
+---
+
+## How to Filter Your Dashboard by Employee
+
+### What is This Feature?
+If you manage a team or projects, the **Filter by Employee** feature lets you customize your dashboard view. Instead of only seeing your own hours, you can look at:
+* How many hours a specific team member worked.
+* The combined work of multiple chosen team members.
+* The overall total work done by the whole team.
+
+:::note
+If you do not manage a project or team, your dashboard will simply show your own personal work as usual, keeping things clean and clutter-free.
+:::
+
+### Step-by-Step: How to Use It
+
+#### 1. What You See When You First Open the Dashboard
+Whenever you open your dashboard, it always starts by showing your own personal hours and tasks. Under the "Dashboard" heading at the top, you will see your name and the date range.
+
+#### 2. Opening the Employee Filter
+* Look at the top right of your dashboard header.
+* Tap the **Filter icon** (looks like a contact/person icon).
+* A menu will pop up showing:
+  * A **Search bar** at the top.
+  * An **"All Users"** option.
+  * A list of your team members with their names and email addresses.
+
+#### 3. Choosing What to View
+* **To see a single person’s work:** Tap that person’s name or checkbox.
+* **To see multiple people together:** Tap each person you want to include. At the bottom of the popup, it will show how many people you have selected (for example: *"2 employees selected"*).
+* **To quickly find someone in a long list:** Type their name or email into the search bar. The list will filter instantly as you type.
+* **To see the entire team’s combined work:** Tap **"All Users"**. (Selecting this automatically unchecks individual names).
+
+#### 4. Applying Your Selection
+* Tap the **"Apply Filter"** button at the bottom of the popup.
+* The popup will close, and your entire dashboard will automatically refresh:
+  * The priority boxes (Eisenhower Matrix) will update with the hours logged by the selected person/people.
+  * The project charts and breakdown lists will show only their work.
+  * The header subtitle will update to reflect your choice (e.g., `Current Month • 2 Employees`).
+
+#### 5. Resetting Back to Team Overview
+* Open the filter menu and tap **"Clear Filter"** (or select **"All Users"** and tap **Apply Filter**).
+* Your dashboard will update to show the combined hours logged by everyone on the team.
+
+### Quick Summary of Options
+
+| What you want to do | How to do it | What the header shows |
+|---|---|---|
+| **Check your own work** | Switch back to your personal name in the list. | `Current Month • [Your Name]` |
+| **Check one colleague's work** | Select their name &rarr; Tap **Apply Filter**. | `Current Month • [Colleague's Name]` |
+| **Check a small sub-team** | Select 2 or more names &rarr; Tap **Apply Filter**. | `Current Month • 3 Employees` |
+| **Check entire team totals** | Tap **Clear Filter** (or select **All Users**). | `Current Month • All Users` |
+| **Close without changing anything** | Tap anywhere outside the popup box. | Unchanged |
 
 ---
 
