@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "docs:version": "docusaurus docs:version",
+    "docs:version": "node scripts/version-docs.js",
     "write-translations": "docusaurus write-translations"
   },
   "dependencies": {
