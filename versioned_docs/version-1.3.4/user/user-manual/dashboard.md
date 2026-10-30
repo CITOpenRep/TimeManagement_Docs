@@ -32,7 +32,7 @@ Located at the top of the screen.
 
 ### Features:
 * **Menu Icon:** Opens the side navigation menu.
-* **Account Name / Title:** Displays "Dashboard", the active date range, and the selected employee(s) (e.g., "Current Month • Parvathy Nair").
+* **Account Name / Title:** Displays "Dashboard", the active date range, and the selected employee(s) (e.g., "Current Month • [Employee Name]").
 * **Filter Icon (Sliders):** Opens the Date Range filter dropdown to adjust the time period of the displayed data.
 * **Filter by Employee Icon (Contact / Person):** Opens the Filter by Employee popup to customize the dashboard view by individual or multiple team members.
 * **Add Icon (Clock with +):** Used to quickly create a new timesheet entry.

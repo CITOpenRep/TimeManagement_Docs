@@ -105,7 +105,7 @@ Om documentatie specifiek voor versie `1.2.9` toe te voegen of te wijzigen:
 Wanneer u een nieuwe major/minor softwarerelease voorbereidt (bijv. `1.3.0`), bevriest u de huidige staat van de documentatie:
 1. Voer de opdracht voor versionering uit:
    ```bash
-   npx docusaurus docs:version 1.3.0
+   npm run docs:version 1.3.0
    ```
 
 ---

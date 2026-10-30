@@ -32,7 +32,7 @@ Bevindt zich bovenaan het scherm.
 
 ### Functies:
 * **Menu-icoon:** Opent het navigatiemenu.
-* **Accountnaam / Titel:** Toont "Dashboard", het actieve datumbereik en de geselecteerde medewerker(s).
+* **Accountnaam / Titel:** Toont "Dashboard", het actieve datumbereik en de geselecteerde medewerker(s) (bijv. "Deze Maand • [Naam Medewerker]").
 * **Filtericoon (Schuifregelaars):** Opent het dropdownmenu voor het datumbereikfilter om de tijdsperiode van de weergegeven gegevens aan te passen.
 * **Medewerkersfilter-icoon (Contactpersoon / Gebruiker):** Opent het pop-upmenu Filter op medewerker om uren en taken van specifieke teamleden of het hele team te bekijken en te filteren.
 * **Toevoegen-icoon (Klok met +):** Wordt gebruikt om snel een nieuwe urenstaat-invoer aan te maken.
@@ -86,7 +86,7 @@ Als u geen project of team beheert, toont uw dashboard gewoon zoals gebruikelijk
 ### Stapsgewijze handleiding: Hoe te gebruiken
 
 #### 1. Wat u ziet wanneer u het dashboard voor het eerst opent
-Wanneer u uw dashboard opent, begint het altijd met het tonen van uw eigen persoonlijke uren en taken. Onder de kop "Dashboard" bovenaan ziet u uw naam en het datumbereik (bijvoorbeeld: `Deze Maand • Parvathy Nair`).
+Wanneer u uw dashboard opent, begint het altijd met het tonen van uw eigen persoonlijke uren en taken. Onder de kop "Dashboard" bovenaan ziet u uw naam en het datumbereik (bijvoorbeeld: `Deze Maand • [Naam Medewerker]`).
 
 #### 2. Het medewerkersfilter openen
 * Kijk rechtsboven in de kopsectie van uw dashboard.
@@ -110,7 +110,7 @@ Wanneer u uw dashboard opent, begint het altijd met het tonen van uw eigen perso
   * De subtitel in de kopsectie wordt bijgewerkt om uw keuze weer te geven (bijv. `Deze Maand • 2 Werknemers`).
 
 #### 5. Terugzetten naar het teamoverzicht
-* Open het filtermenu en tik op **"Filter wissen"** ("Clear Filter") (of selecteer **"Alle gebruikers"** en tik op **Toepassen**).
+* Open het filtermenu en tik op **"Filter wissen"** ("Clear Filter") (of selecteer **"Alle gebruikers"** en tik op **"Filter toepassen"**).
 * Uw dashboard wordt bijgewerkt om de gecombineerde uren van iedereen in het team weer te geven.
 
 ### Snel overzicht van de opties
